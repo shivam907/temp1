@@ -1,6 +1,8 @@
 // import logo from "./logo.svg";
 import Hero from "./Components/Hero/Hero";
-// import './App.css';
+import "./App.css";
+import Nav from "./UI/Nav";
+import Numbers from "./Components/Numbers/Numbers";
 
 function App() {
   return (
@@ -15,7 +17,9 @@ function App() {
           src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
         ></script>
       </head>
+      <Nav />
       <Hero />
+      <Numbers />
     </>
   );
 }

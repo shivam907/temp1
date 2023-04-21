@@ -1,0 +1,41 @@
+.number-section {
+  background-color: #efeef9;
+  padding: 4rem 6rem;
+  border-radius: 2rem;
+  width: 120rem;
+  margin: 10rem auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.notes-books-pyq {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8.6rem;
+}
+
+.notes-books-pyq div {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+.Number-heading {
+  font-size: 3rem;
+  color: #333;
+}
+
+.number {
+  font-size: 4.4rem;
+  color: #5236ff;
+  font-weight: 600;
+}
+
+.label {
+  font-size: 2rem;
+  color: #333;
+}

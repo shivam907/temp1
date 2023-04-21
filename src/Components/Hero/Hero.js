@@ -2,6 +2,7 @@ import React from "react";
 import classes from "./Hero.module.css";
 import { IonIcon } from "@ionic/react";
 import { MailOutline } from "react-ionicons";
+import Nav from "../../UI/Nav";
 function hero() {
   return (
     <body>
@@ -14,23 +15,6 @@ function hero() {
         src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
       ></script>
       <div className={classes["hero-section"]}>
-        <nav className={classes["nav-section"]}>
-          <div className={classes["logo"]}>CGC Assign</div>
-          <ul className={classes["nav-lists"]}>
-            <li>
-              <a className={classes["link-list"]}>Features</a>
-            </li>
-            <li>
-              <a className={classes["link-list"]}>Testimonial</a>
-            </li>
-            <li>
-              <a className={classes["link-list"]}>Blog</a>
-            </li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
-        </nav>
         <div className={classes["hero-content"]}>
           <h1 className={classes["hero-head"]}>
             The Ultimate Resource for Exam Preparation

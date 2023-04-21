@@ -1,0 +1,47 @@
+.nav {
+  width: 100vw;
+  /* background-color: #333; */
+  position: fixed;
+  padding: 4rem;
+}
+
+.shrink {
+  position: fixed;
+  /* top: 0; */
+  background-color: #5236ff90 !important;
+  padding: 1.5rem 0 !important;
+  /* top: -2rem; */
+  transition: 0.2s ease-in-out;
+  backdrop-filter: blur(10px);
+  z-index: 99;
+}
+.chitta {
+  color: #fff !important;
+}
+.nav-section {
+  display: flex;
+  align-items: center;
+  width: 120rem;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.logo {
+  font-size: 2.8rem;
+}
+
+.nav-lists {
+  display: flex;
+  gap: 5rem;
+  list-style: none;
+  font-size: 1.8rem;
+}
+
+.link-list {
+  color: #333;
+  cursor: pointer;
+}
+
+.link-list:hover,
+.link-list:active {
+  color: #666;
+}

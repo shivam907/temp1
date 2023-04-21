@@ -19,42 +19,12 @@ html {
   height: 100vh;
 }
 
-.nav-section {
-  display: flex;
-  align-items: center;
-  width: 120rem;
-  margin: 0 auto;
-  padding-top: 4rem;
-  justify-content: space-between;
-}
-
-.logo {
-  font-size: 2.8rem;
-}
-
-.nav-lists {
-  display: flex;
-  gap: 5rem;
-  list-style: none;
-  font-size: 1.8rem;
-}
-
-.link-list {
-  color: #333;
-  cursor: pointer;
-}
-
-.link-list:hover,
-.link-list:active {
-  color: #666;
-}
-
 .hero-content {
   width: 60rem;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  height: 80%;
+  height: 90%;
   align-items: center;
   justify-content: center;
   gap: 2rem;
