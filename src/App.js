@@ -3,6 +3,8 @@ import Hero from "./Components/Hero/Hero";
 import "./App.css";
 import Nav from "./UI/Nav";
 import Numbers from "./Components/Numbers/Numbers";
+import Select from "./Components/SelecYourBranch/Select";
+import Ultimate from "./Components/Ultimate/Ultimate";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
       <Nav />
       <Hero />
       <Numbers />
+      <Select />
+      <Ultimate />
     </>
   );
 }

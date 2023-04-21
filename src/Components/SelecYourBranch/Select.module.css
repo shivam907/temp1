@@ -1,0 +1,72 @@
+.hjk {
+  font-size: 5.2rem;
+  padding-bottom: 3rem;
+}
+.selectContainer {
+  width: 120rem;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+
+.color-blue {
+  color: #5236ff;
+}
+
+.branches {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+  padding: 0 8rem;
+}
+
+.branch {
+  height: 27.4rem;
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 4rem 0 0 4rem;
+  border-radius: 1rem;
+
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.branch:hover {
+  transform: scale(1.05);
+  overflow: hidden;
+
+  background-color: rgba(108, 45, 190, 0.5);
+}
+
+.branch-1 {
+  background-image: url("Select-Branch-img1.png");
+  background-size: cover;
+}
+
+.branch-2 {
+  background-image: url("Select-Branch-img2.png");
+  background-size: cover;
+}
+
+.branch-3 {
+  background-image: url("Select-Branch-img3.png");
+  /* opacity: 50%; */
+  background-size: cover;
+}
+
+.branch-4 {
+  background-image: url("Select-Branch-img4.png");
+  /* opacity: 50%; */
+  background-size: cover;
+}
+
+.branch-5 {
+  background-image: url("Select-Branch-img5.png");
+  /* opacity: 50%; */
+  background-size: cover;
+}
+
+.branch-6 {
+  background-image: url("Select-Branch-img6.png");
+  /* opacity: 50%; */
+  background-size: cover;
+}
