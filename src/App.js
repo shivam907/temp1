@@ -5,6 +5,8 @@ import Nav from "./UI/Nav";
 import Numbers from "./Components/Numbers/Numbers";
 import Select from "./Components/SelecYourBranch/Select";
 import Ultimate from "./Components/Ultimate/Ultimate";
+import Expertise from "./Components/Expertise/Expertise";
+import Testimonial from "./Components/Testimonials/Testimonial";
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
       <Numbers />
       <Select />
       <Ultimate />
+      <Expertise />
+      <Testimonial />
     </>
   );
 }
