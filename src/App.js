@@ -7,6 +7,8 @@ import Select from "./Components/SelecYourBranch/Select";
 import Ultimate from "./Components/Ultimate/Ultimate";
 import Expertise from "./Components/Expertise/Expertise";
 import Testimonial from "./Components/Testimonials/Testimonial";
+import Blogs from "./Components/Blogs/Blogs";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -28,6 +30,8 @@ function App() {
       <Ultimate />
       <Expertise />
       <Testimonial />
+      <Blogs />
+      <Footer />
     </>
   );
 }
