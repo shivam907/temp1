@@ -8,15 +8,16 @@
 .shrink {
   position: fixed;
   /* top: 0; */
-  background-color: #5236ff90 !important;
-  padding: 1.5rem 0 !important;
+  background-color: #fff !important;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
+  padding: 1.9rem 0 !important;
   /* top: -2rem; */
   transition: 0.2s ease-in-out;
   backdrop-filter: blur(10px);
   z-index: 99;
 }
 .chitta {
-  color: #fff !important;
+  /* color: #fff !important; */
 }
 .nav-section {
   display: flex;

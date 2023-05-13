@@ -11,6 +11,7 @@ import Blogs from "./Components/Blogs/Blogs";
 import HeroSecondary from "./UI/Hero";
 import SelectSemester from "./Components/SelectSemester/SelectSemester";
 import Footer from "./Components/Footer/Footer";
+import Subject from "./Components/Subjects/Subjects";
 
 function App() {
   return (
@@ -24,8 +25,8 @@ function App() {
       <Testimonial />
       <Blogs />
       <Footer /> */}
-
-      <SelectSemester />
+      {/* <SelectSemester /> */}
+      <Subject />
     </>
   );
 }
