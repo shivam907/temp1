@@ -18,7 +18,7 @@ function Testimonial() {
           </p>
           <div class={classes["person-info-box"]}>
             <div class={classes["person-info"]}>
-              <img class={classes["img-testi"]} src={image} alt="image" />
+              <img class={classes["img-testi"]} src={image} alt="" />
               <div class={classes["person-detail"]}>
                 <p class={classes["testi-name"]}>Shreya Sharma</p>
                 <p class={classes["faded-info"]}>App store review</p>
@@ -42,7 +42,7 @@ function Testimonial() {
           </p>
           <div class={classes["person-info-box"]}>
             <div class={classes["person-info"]}>
-              <img class={classes["img-testi"]} src={image} alt="image" />
+              <img class={classes["img-testi"]} src={image} alt="" />
               <div class={classes["person-detail"]}>
                 <p class={classes["testi-name"]}>Shreya Sharma</p>
                 <p class={classes["faded-info"]}>App store review</p>
@@ -66,7 +66,7 @@ function Testimonial() {
           </p>
           <div class={classes["person-info-box"]}>
             <div class={classes["person-info"]}>
-              <img class={classes["img-testi"]} src={image} alt="image" />
+              <img class={classes["img-testi"]} src={image} alt="" />
               <div class={classes["person-detail"]}>
                 <p class={classes["testi-name"]}>Shreya Sharma</p>
                 <p class={classes["faded-info"]}>App store review</p>
@@ -90,7 +90,7 @@ function Testimonial() {
           </p>
           <div class={classes["person-info-box"]}>
             <div class={classes["person-info"]}>
-              <img class={classes["img-testi"]} src={image} alt="image" />
+              <img class={classes["img-testi"]} src={image} alt="" />
               <div class={classes["person-detail"]}>
                 <p class={classes["testi-name"]}>Shreya Sharma</p>
                 <p class={classes["faded-info"]}>App store review</p>
@@ -114,7 +114,7 @@ function Testimonial() {
           </p>
           <div class={classes["person-info-box"]}>
             <div class={classes["person-info"]}>
-              <img class={classes["img-testi"]} src={image} alt="image" />
+              <img class={classes["img-testi"]} src={image} alt="" />
               <div class={classes["person-detail"]}>
                 <p class={classes["testi-name"]}>Shreya Sharma</p>
                 <p class={classes["faded-info"]}>App store review</p>
@@ -140,7 +140,7 @@ function Testimonial() {
           </p>
           <div class={classes["person-info-box"]}>
             <div class={classes["person-info"]}>
-              <img class={classes["img-testi"]} src={image} alt="image" />
+              <img class={classes["img-testi"]} src={image} alt="" />
               <div class={classes["person-detail"]}>
                 <p class={classes["testi-name"]}>Shreya Sharma</p>
                 <p class={classes["faded-info"]}>App store review</p>
@@ -164,7 +164,7 @@ function Testimonial() {
           </p>
           <div class={classes["person-info-box"]}>
             <div class={classes["person-info"]}>
-              <img class={classes["img-testi"]} src={image} alt="image" />
+              <img class={classes["img-testi"]} src={image} alt="" />
               <div class={classes["person-detail"]}>
                 <p class={classes["testi-name"]}>Shreya Sharma</p>
                 <p class={classes["faded-info"]}>App store review</p>
@@ -188,7 +188,7 @@ function Testimonial() {
           </p>
           <div class={classes["person-info-box"]}>
             <div class={classes["person-info"]}>
-              <img class={classes["img-testi"]} src={image} alt="image" />
+              <img class={classes["img-testi"]} src={image} alt="" />
               <div class={classes["person-detail"]}>
                 <p class={classes["testi-name"]}>Shreya Sharma</p>
                 <p class={classes["faded-info"]}>App store review</p>
@@ -212,7 +212,7 @@ function Testimonial() {
           </p>
           <div class={classes["person-info-box"]}>
             <div class={classes["person-info"]}>
-              <img class={classes["img-testi"]} src={image} alt="image" />
+              <img class={classes["img-testi"]} src={image} alt="" />
               <div class={classes["person-detail"]}>
                 <p class={classes["testi-name"]}>Shreya Sharma</p>
                 <p class={classes["faded-info"]}>App store review</p>
@@ -236,7 +236,7 @@ function Testimonial() {
           </p>
           <div class={classes["person-info-box"]}>
             <div class={classes["person-info"]}>
-              <img class={classes["img-testi"]} src={image} alt="image" />
+              <img class={classes["img-testi"]} src={image} alt="" />
               <div class={classes["person-detail"]}>
                 <p class={classes["testi-name"]}>Shreya Sharma</p>
                 <p class={classes["faded-info"]}>App store review</p>

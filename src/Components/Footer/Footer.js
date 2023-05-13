@@ -8,32 +8,32 @@ function Footer() {
           <h3 class={classes["heading-footer"]}>About Us</h3>
           <ul class={classes["ul-footer"]}>
             <li>
-              <a class={classes["link-list"]} href="#">
+              <a class={classes["link-list"]} href="/">
                 Why Us?
               </a>
             </li>
             <li>
-              <a class={classes["link-list"]} href="#">
+              <a class={classes["link-list"]} href="/">
                 Properties
               </a>
             </li>
             <li>
-              <a class={classes["link-list"]} href="#">
+              <a class={classes["link-list"]} href="/">
                 Services
               </a>
             </li>
             <li>
-              <a class={classes["link-list"]} href="#">
+              <a class={classes["link-list"]} href="/">
                 Community Impact
               </a>
             </li>
             <li>
-              <a class={classes["link-list"]} href="#">
+              <a class={classes["link-list"]} href="/">
                 Press
               </a>
             </li>
             <li>
-              <a class={classes["link-list"]} href="#">
+              <a class={classes["link-list"]} href="/">
                 Real Estate News
               </a>
             </li>
@@ -44,42 +44,42 @@ function Footer() {
           <h3 class={classes["heading-footer"]}>Blog</h3>
           <ul class={classes["ul-footer"]}>
             <li>
-              <a class={classes["link-list"]} href="#">
+              <a class={classes["link-list"]} href="/">
                 Company
               </a>
             </li>
             <li>
-              <a class={classes["link-list"]} href="#">
+              <a class={classes["link-list"]} href="/">
                 Leadership
               </a>
             </li>
             <li>
-              <a class={classes["link-list"]} href="#">
+              <a class={classes["link-list"]} href="/">
                 Diversity
               </a>
             </li>
             <li>
-              <a class={classes["link-list"]} href="#">
+              <a class={classes["link-list"]} href="/">
                 Carrier With Us
               </a>
             </li>
             <li>
-              <a class={classes["link-list"]} href="#">
+              <a class={classes["link-list"]} href="/">
                 Feedback
               </a>{" "}
             </li>
             <li>
-              <a class={classes["link-list"]} href="#">
+              <a class={classes["link-list"]} href="/">
                 Report a problem
               </a>{" "}
             </li>
             <li>
-              <a class={classes["link-list"]} href="#">
+              <a class={classes["link-list"]} href="/">
                 Testimonial
               </a>{" "}
             </li>
             <li>
-              <a class={classes["link-list"]} href="#">
+              <a class={classes["link-list"]} href="/">
                 Privacy Policy
               </a>{" "}
             </li>
@@ -90,47 +90,47 @@ function Footer() {
           <h3 class={classes["heading-footer"]}>Support</h3>
           <ul class={classes["ul-footer"]}>
             <li>
-              <a class={classes["link-list"]} href="#">
+              <a class={classes["link-list"]} href="/">
                 Privacy Policies
               </a>
             </li>
             <li>
-              <a class={classes["link-list"]} href="#">
+              <a class={classes["link-list"]} href="/">
                 Safety Guide
               </a>
             </li>
             <li>
-              <a class={classes["link-list"]} href="#">
+              <a class={classes["link-list"]} href="/">
                 Report a Issue
               </a>
             </li>
             <li>
-              <a class={classes["link-list"]} href="#">
+              <a class={classes["link-list"]} href="/">
                 Help-Center
               </a>
             </li>
             <li>
-              <a class={classes["link-list"]} href="#">
+              <a class={classes["link-list"]} href="/">
                 Management
               </a>
             </li>
             <li>
-              <a class={classes["link-list"]} href="#">
+              <a class={classes["link-list"]} href="/">
                 Paisabazaar.com
               </a>{" "}
             </li>
             <li>
-              <a class={classes["link-list"]} href="#">
+              <a class={classes["link-list"]} href="/">
                 Paisabazaar.com
               </a>{" "}
             </li>
             <li>
-              <a class={classes["link-list"]} href="#">
+              <a class={classes["link-list"]} href="/">
                 Paisabazaar.com
               </a>{" "}
             </li>
             <li>
-              <a class={classes["link-list"]} href="#">
+              <a class={classes["link-list"]} href="/">
                 Executive Talk
               </a>{" "}
             </li>
@@ -142,14 +142,14 @@ function Footer() {
           <ul class={classes["ul-footer"]}>
             <li>
               <p class={classes["foot-para"]}>Toll Free -</p>
-              <a class={classes["link-list"]} href="#">
+              <a class={classes["link-list"]} href="/">
                 {" "}
                 89689 69929
               </a>
             </li>
             <li>
               <p class={classes["foot-para"]}>Email -</p>
-              <a class={classes["link-list"]} href="#">
+              <a class={classes["link-list"]} href="/">
                 syncu907@gmail.com{" "}
               </a>
             </li>
@@ -163,7 +163,9 @@ function Footer() {
               </div>
             </li>
             <li>
-              <a class={classes["link-list"]}>Terms and Conditions </a>
+              <a class={classes["link-list"]} href="/">
+                Terms and Conditions{" "}
+              </a>
             </li>
           </ul>
         </nav>

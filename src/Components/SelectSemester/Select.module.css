@@ -1,0 +1,104 @@
+.col-2-sh {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.col-1-sh {
+  font-size: 48px;
+  color: #444 !important;
+  font-weight: 600;
+}
+
+.link-sh {
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.boxes-sh {
+  width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.box-sh {
+  /* background-color: aquamarine; */
+
+  border-radius: 10px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1.6fr 4fr;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
+}
+
+.num-sh {
+  padding: 25px 30px;
+  font-size: 30px;
+}
+
+.circle-sh {
+  /* z-index: 10000;
+  z-index: 10000 !important; */
+  border-radius: 50%;
+  background-color: aquamarine;
+  padding: 30px;
+  position: absolute;
+  /* transform: translateY(-50%) !important; */
+  width: 98.4px;
+  height: 98.4px;
+  left: -40px;
+}
+
+.cr-1-sh {
+  transform: translateY(-50%);
+}
+
+.cr-2-sh {
+  transform: translateY(50%);
+}
+
+/* .circle-sh-2 {
+  border-radius: 50%;
+  background-color: white;
+  padding: 30px;
+  position: absolute;
+  bottom: 0;
+} */
+
+.color-sh {
+  background-color: aquamarine;
+  /* overflow: hidden; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.color-sh p {
+  font-size: 30px;
+  z-index: 9999999999999 !important;
+  transform: translateX(-30%);
+}
+
+.box-sh:hover {
+  cursor: pointer;
+
+  background-color: #f1f1f199 !important;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
+  transition: 0.1s all;
+}
+.box-sh:hover .color-sh,
+.box-sh:hover .circle-sh {
+  background-color: #c0ffea;
+}
+.small {
+  font-size: 17px;
+}
+.headingDiv {
+  width: 120rem;
+  margin: 50px auto;
+}
+.heading {
+  font-size: 40px;
+  font-weight: 600;
+}

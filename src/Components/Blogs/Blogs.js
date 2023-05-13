@@ -19,7 +19,7 @@ function Blogs() {
           <p class={classes["box-heading"]}>
             Crush your M-III backlog with these foolproof tips!
           </p>
-          <a class={classes["click-here-btn"]} href="#">
+          <a href="/" class={classes["click-here-btn"]}>
             Click Here..
           </a>
         </div>
@@ -34,7 +34,7 @@ function Blogs() {
           <p class={classes["box-heading"]}>
             Crush your M-III backlog with these foolproof tips!
           </p>
-          <a class={classes["click-here-btn"]} href="#">
+          <a href="/" class={classes["click-here-btn"]}>
             Click Here..
           </a>
         </div>
@@ -49,7 +49,7 @@ function Blogs() {
           <p class={classes["box-heading"]}>
             Crush your M-III backlog with these foolproof tips!
           </p>
-          <a class={classes["click-here-btn"]} href="#">
+          <a href="/" class={classes["click-here-btn"]}>
             Click Here..
           </a>
         </div>

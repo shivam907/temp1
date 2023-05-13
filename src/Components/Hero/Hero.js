@@ -1,8 +1,8 @@
 import React from "react";
 import classes from "./Hero.module.css";
-import { IonIcon } from "@ionic/react";
-import { MailOutline } from "react-ionicons";
-import Nav from "../../UI/Nav";
+// import { IonIcon } from "@ionic/react";
+// import { MailOutline } from "react-ionicons";
+// import Nav from "../../UI/Nav";
 function hero() {
   return (
     <body>
@@ -27,12 +27,12 @@ function hero() {
           </p>
 
           <div className={classes["input"]}>
-            <MailOutline
+            {/* <MailOutline
               className={classes["icon-hero"]}
               height="2.3rem"
               width="2.3rem"
               color={"#777777"}
-            />
+            /> */}
             <input
               className={classes["hero-input"]}
               type="email"
