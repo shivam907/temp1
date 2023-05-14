@@ -1,32 +1,26 @@
-// import logo from "./logo.svg";
-import Hero from "./Components/Hero/Hero";
+// SyncU is Best
 import "./App.css";
-import Nav from "./UI/Nav";
-import Numbers from "./Components/Numbers/Numbers";
-import Select from "./Components/SelecYourBranch/Select";
-import Ultimate from "./Components/Ultimate/Ultimate";
-import Expertise from "./Components/Expertise/Expertise";
-import Testimonial from "./Components/Testimonials/Testimonial";
-import Blogs from "./Components/Blogs/Blogs";
-import HeroSecondary from "./UI/Hero";
-import SelectSemester from "./Components/SelectSemester/SelectSemester";
-import Footer from "./Components/Footer/Footer";
-import Subject from "./Components/Subjects/Subjects";
+
+import SubjectPage from "./Pages/Subjects";
+import LandingPage from "./Pages/Landing";
+import SelectSemester from "./Pages/SelectSemester";
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
-      {/* <Nav />
-      <Hero />
-      <Numbers />
-      <Select />
-      <Ultimate />
-      <Expertise />
-      <Testimonial />
-      <Blogs />
-      <Footer /> */}
-      {/* <SelectSemester /> */}
-      <Subject />
+      {/* <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<LandingPage />}>
+             <Route index element={<LandingPage />} /> 
+            <Route path="/subject" element={<SubjectPage />} />
+          </Route>
+        </Routes>
+      </BrowserRouter> */}
+      <LandingPage />
+      <SubjectPage />
+      <SelectSemester />
     </>
   );
 }

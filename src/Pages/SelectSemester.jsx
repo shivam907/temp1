@@ -1,7 +1,7 @@
 import React from "react";
-import classes from "./Select.module.css";
-import SelectBox from "./SelectBox";
-import Hero from "../../UI/Hero";
+import classes from "../Components/SelectSemester/Select.module.css";
+import SelectBox from "../Components/SelectSemester/SelectBox";
+import Hero from "../UI/Hero";
 function SelectSemester() {
   return (
     <>
