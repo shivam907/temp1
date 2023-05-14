@@ -4,6 +4,9 @@
   position: fixed;
   padding: 4rem;
 }
+a {
+  text-decoration: none !important;
+}
 
 .shrink {
   position: fixed;
@@ -38,7 +41,8 @@
 }
 
 .link-list {
-  color: #333;
+  color: #444;
+  font-weight: 600;
   cursor: pointer;
 }
 

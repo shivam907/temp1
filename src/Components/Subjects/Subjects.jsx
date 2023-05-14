@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "../../UI/Hero";
-import SubjectBox from "./SubjectBox";
+import SubjectBox from "./SubjectBoxes";
 function Subject() {
   return (
     <>
