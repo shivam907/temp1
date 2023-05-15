@@ -8,6 +8,7 @@
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 .testimonial-container {
@@ -22,8 +23,12 @@ html {
 }
 
 .testimonial-heading {
+  text-align: center;
   font-size: 4rem;
-  margin-bottom: 4rem;
+  margin-bottom: 8rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
 }
 
 .spl-head {
@@ -34,7 +39,7 @@ html {
   display: flex;
   gap: 2rem;
 
-  overflow-x: scroll;
+  /* overflow-x: scroll; */
 }
 
 .img-testi {
@@ -92,4 +97,48 @@ html {
 
 .testi-box-2 {
   margin-top: 2rem;
+}
+.testimonial-container {
+  transform: translate3d(0, 0, 0);
+}
+
+.testimonial-box {
+  /* height: 200px; */
+  /* width: 2526px; */
+  /* background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/collage.jpg); */
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+  /* height: 100%; */
+  transform: translate3d(0, 0, 0);
+}
+.testimonial-box {
+  animation: moveSlideshow 12s linear infinite;
+}
+.testi-box-2 {
+  display: flex;
+  flex-direction: row-reverse;
+  /* position: absolute; */
+  /* right: 0 !important; */
+  animation: moveSlideshow2 12s linear infinite !important;
+}
+/* .tech-slideshow .mover-2 {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+  background-position: 0 -200px;
+  animation: moveSlideshow 15s linear infinite;
+} */
+/* .tech-slideshow:hover .mover-2 {
+  opacity: 1;
+} */
+
+@keyframes moveSlideshow {
+  100% {
+    transform: translateX(-36.6666%);
+  }
+}
+@keyframes moveSlideshow2 {
+  100% {
+    transform: translateX(36.6666%);
+  }
 }

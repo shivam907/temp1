@@ -6,8 +6,8 @@ function Testimonial() {
     <div class={classes["testimonial-container"]}>
       <div className={classes["testimonial-div-head"]}>
         <h2 class={classes["testimonial-heading"]}>
-          <span class={classes["spl-head"]}>Happy costumers</span>
-          <br />
+          <span class={classes["spl-head"]}>Happy costumers </span>
+          {/* <br /> */}
           are our true health
         </h2>
       </div>
