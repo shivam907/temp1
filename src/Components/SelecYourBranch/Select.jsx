@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import classes from "./Select.module.css";
 function Select() {
   return (
@@ -10,24 +11,36 @@ function Select() {
         </i>
       </h1>
       <div class={classes["branches"]}>
-        <div class={`${classes["branch"]} ${classes["branch-1"]}`} href="#">
-          CSE
-        </div>
-        <div class={`${classes["branch"]} ${classes["branch-2"]}`} href="#">
-          ECE
-        </div>
-        <div class={`${classes["branch"]} ${classes["branch-3"]}`} href="#">
-          BCA
-        </div>
-        <div class={`${classes["branch"]} ${classes["branch-4"]}`} href="#">
-          BSc
-        </div>
-        <div class={`${classes["branch"]} ${classes["branch-5"]}`} href="#">
-          ME
-        </div>
-        <div class={`${classes["branch"]} ${classes["branch-6"]}`} href="#">
-          IT
-        </div>
+        <Link to={"selectSemester"}>
+          <div class={`${classes["branch"]} ${classes["branch-1"]}`} href="#">
+            CSE
+          </div>
+        </Link>
+        <Link to={"selectSemester"}>
+          <div class={`${classes["branch"]} ${classes["branch-2"]}`} href="#">
+            ECE
+          </div>
+        </Link>
+        <Link to={"selectSemester"}>
+          <div class={`${classes["branch"]} ${classes["branch-3"]}`} href="#">
+            BCA
+          </div>
+        </Link>
+        <Link to={"selectSemester"}>
+          <div class={`${classes["branch"]} ${classes["branch-4"]}`} href="#">
+            BSc
+          </div>
+        </Link>
+        <Link to={"selectSemester"}>
+          <div class={`${classes["branch"]} ${classes["branch-5"]}`} href="#">
+            ME
+          </div>
+        </Link>
+        <Link to={"selectSemester"}>
+          <div class={`${classes["branch"]} ${classes["branch-6"]}`} href="#">
+            IT
+          </div>
+        </Link>
       </div>
     </div>
   );

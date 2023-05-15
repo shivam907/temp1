@@ -6,8 +6,6 @@ import LandingPage from "./Pages/Landing";
 import SelectSemester from "./Pages/SelectSemester";
 import Loader from "./UI/Loader.jsx";
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-
 function App() {
   const [loading, setLoading] = React.useState(false);
   React.useEffect(() => {
@@ -16,12 +14,13 @@ function App() {
       setLoading(false);
     }, 2000);
   }, []);
+
   return (
     <>
       {/* <BrowserRouter>
         <Routes>
           <Route path="/" element={<LandingPage />}>
-             <Route index element={<LandingPage />} /> 
+            <Route index element={<LandingPage />} />
             <Route path="/subject" element={<SubjectPage />} />
           </Route>
         </Routes>
