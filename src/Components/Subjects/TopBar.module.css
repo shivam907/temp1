@@ -1,0 +1,44 @@
+/*
+
+-------01 TYPOGRAPHY SYSTEM
+
+- SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+- FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 */
+
+.top-bar-section {
+  width: 120rem;
+  margin: 10rem auto;
+}
+
+.top-bar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #effafc;
+  /* padding-top: 3px; */
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+}
+
+.subjects {
+  font-size: 2rem;
+  padding: 3rem 6rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.subjects:hover {
+  background-color: #fff;
+}
+
+.active-subject {
+  background-color: #c7f7ff !important;
+}

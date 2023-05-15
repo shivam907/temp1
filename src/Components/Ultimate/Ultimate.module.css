@@ -74,6 +74,9 @@
 
 .box-para {
   font-size: 1.6rem;
+  /* line-height: 1.6; */
+  letter-spacing: 1px;
+  color: #00000080;
 }
 
 .col-1-boxes {

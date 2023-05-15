@@ -11,8 +11,13 @@ html {
 }
 
 .testimonial-container {
-  width: 120rem;
+  width: 100vw;
   height: 60rem;
+  margin: 0 auto;
+}
+
+.testimonial-div-head {
+  width: 120rem;
   margin: 0 auto;
 }
 

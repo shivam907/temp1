@@ -12,8 +12,7 @@ function Ultimate() {
             <p class={classes["box-para"]}>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore
               dolores voluptas maxime quod! Labore nihil ratione blanditiis ut
-              nobis accusamus, aut doloremque suscipit facilis libero
-              cupiditate, aliquam odit voluptate! Eum.
+              nobis accusamus, aut doloremque suscipit facilis
             </p>
           </div>
           <div class={classes["box"]}>
@@ -22,8 +21,7 @@ function Ultimate() {
             <p class={classes["box-para"]}>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore
               dolores voluptas maxime quod! Labore nihil ratione blanditiis ut
-              nobis accusamus, aut doloremque suscipit facilis libero
-              cupiditate, aliquam odit voluptate! Eum.
+              nobis accusamus, aut doloremque suscipit facilis
             </p>
           </div>
         </div>
@@ -35,8 +33,7 @@ function Ultimate() {
             <p class={classes["box-para"]}>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore
               dolores voluptas maxime quod! Labore nihil ratione blanditiis ut
-              nobis accusamus, aut doloremque suscipit facilis libero
-              cupiditate, aliquam odit voluptate! Eum.
+              nobis accusamus, aut doloremque suscipit facilis
             </p>
           </div>
           <div class={classes["box"]}>
@@ -45,8 +42,7 @@ function Ultimate() {
             <p class={classes["box-para"]}>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore
               dolores voluptas maxime quod! Labore nihil ratione blanditiis ut
-              nobis accusamus, aut doloremque suscipit facilis libero
-              cupiditate, aliquam odit voluptate! Eum.
+              nobis accusamus, aut doloremque suscipit facilis
             </p>
           </div>
         </div>

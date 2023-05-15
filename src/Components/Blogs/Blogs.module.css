@@ -7,7 +7,7 @@
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
 
 .story-section {
-  width: 120rem;
+  width: 110rem;
   margin: 5rem auto;
 }
 
@@ -22,21 +22,23 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 2rem;
+  gap: 4rem;
 
   margin: 0 auto;
 }
 
 .box {
-  padding: 3rem;
+  /* padding: 3rem; */
   box-shadow: 0 0 2rem rgba(4, 4, 107, 0.2);
 
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-radius: 2rem;
+  border-radius: 0.5rem;
   transition: all 0.5s;
   cursor: pointer;
+  overflow: hidden;
+  /* width: 100rem; */
 }
 
 .box:hover {
@@ -47,6 +49,31 @@
   margin-top: 10rem;
 }
 
+.box-2 {
+  margin-bottom: 5rem;
+}
+
+.box-neeche-sh {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.date-sh {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #00000080;
+}
+
+.para-blog-sh {
+  font-size: 1.5rem;
+  color: #00000070;
+  font-weight: 400;
+  /* line-height: 1;
+  letter-spacing: 0.1rem; */
+}
+
 .advice-image {
   width: 100%;
   height: auto;
@@ -54,13 +81,16 @@
 
 .box-heading {
   font-size: 2rem;
-  text-align: center;
-  padding-bottom: 2.4rem;
+  /* text-align: center; */
+  /* padding-bottom: 2.4rem; */
   font-weight: 600;
+  text-transform: uppercase;
 }
 
 .click-here-btn {
-  font-size: 2rem;
-  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #00000080;
+  text-decoration: underline !important;
   /* transition: all 0.5s; */
 }

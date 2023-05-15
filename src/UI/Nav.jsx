@@ -26,7 +26,7 @@ function Hero() {
                 scroll ? classes.chitta : ""
               }`}
             >
-              Features
+              About Us
             </a>
           </li>
           <li>
@@ -36,7 +36,7 @@ function Hero() {
                 scroll ? classes.chitta : ""
               }`}
             >
-              Testimonial
+              Contact
             </a>
           </li>
           <li>
@@ -46,9 +46,32 @@ function Hero() {
                 scroll ? classes.chitta : ""
               }`}
             >
-              Blog
+              Team
             </a>
           </li>
+          <li>
+            <a
+              href="/"
+              className={`${classes["link-list"]} ${
+                scroll ? classes.chitta : ""
+              }`}
+            >
+              Privacy Policy
+            </a>
+          </li>
+          <li>
+            <a
+              href="/"
+              className={`${classes["link-list"]} ${
+                scroll ? classes.chitta : ""
+              }`}
+            >
+              Terms of Service
+            </a>
+          </li>
+          <li></li>
+          <li></li>
+          <li></li>
           <li></li>
           <li></li>
           <li></li>

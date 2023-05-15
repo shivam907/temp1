@@ -4,11 +4,13 @@ import image from "./WhatsApp Image 2023-04-10 at 21.34.12.jpg";
 function Testimonial() {
   return (
     <div class={classes["testimonial-container"]}>
-      <h2 class={classes["testimonial-heading"]}>
-        <span class={classes["spl-head"]}>Happy costumers</span>
-        <br />
-        are our true health
-      </h2>
+      <div className={classes["testimonial-div-head"]}>
+        <h2 class={classes["testimonial-heading"]}>
+          <span class={classes["spl-head"]}>Happy costumers</span>
+          <br />
+          are our true health
+        </h2>
+      </div>
       <div class={classes["testimonial-box"]}>
         <div class={classes["testi-box"]}>
           <p class={classes["testi-para"]}>

@@ -18,9 +18,9 @@ function App() {
           </Route>
         </Routes>
       </BrowserRouter> */}
-      <LandingPage />
+      {/* <LandingPage />
+      <SelectSemester /> */}
       <SubjectPage />
-      <SelectSemester />
     </>
   );
 }
