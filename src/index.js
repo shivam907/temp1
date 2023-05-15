@@ -1,13 +1,39 @@
+// SyncU is Best
 import React from "react";
+import SubjectPage from "./Pages/Subjects";
+import LandingPage from "./Pages/Landing";
+import SelectSemester from "./Pages/SelectSemester";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <LandingPage />,
+  },
+  {
+    path: "selectSemester",
+    element: <SelectSemester />,
+  },
+  {
+    path: "4thSem",
+    element: <SubjectPage />,
+  },
+]);
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
+    {/* <App /> */}
   </React.StrictMode>
 );
 
