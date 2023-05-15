@@ -26,10 +26,15 @@ function App() {
           </Route>
         </Routes>
       </BrowserRouter> */}
-      {loading && <Loader />}
-      <LandingPage />
-      <SelectSemester />
-      <SubjectPage />
+      {loading ? (
+        <Loader />
+      ) : (
+        <>
+          <LandingPage />
+          <SelectSemester />
+          <SubjectPage />
+        </>
+      )}
     </>
   );
 }
