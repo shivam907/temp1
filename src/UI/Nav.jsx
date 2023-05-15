@@ -1,5 +1,6 @@
 import { React, useRef, useState } from "react";
 import classes from "./Nav.module.css";
+import { Link } from "react-router-dom";
 function Hero() {
   const [scroll, changeScroll] = useState(false);
   const nav = useRef(null);
@@ -15,9 +16,11 @@ function Hero() {
       className={`${classes["nav"]}  ${scroll ? classes.shrink : ""}`}
     >
       <nav className={classes["nav-section"]}>
-        <div className={`${classes["logo"]} ${scroll ? classes.chitta : ""}`}>
-          CGC Assign
-        </div>
+        <Link to={"/"}>
+          <div className={`${classes["logo"]} ${scroll ? classes.chitta : ""}`}>
+            CGC Assign
+          </div>
+        </Link>
         <ul className={classes["nav-lists"]}>
           <li>
             <a
