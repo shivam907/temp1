@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/Assgn/static/css/main.c5bdcd44.css",
-    "main.js": "/Assgn/static/js/main.e5271aae.js",
+    "main.css": "/Assgn/static/css/main.693d67a6.css",
+    "main.js": "/Assgn/static/js/main.bd7d34a0.js",
     "static/js/787.7baea511.chunk.js": "/Assgn/static/js/787.7baea511.chunk.js",
     "static/media/Desktop - 5.jpg": "/Assgn/static/media/Desktop - 5.0212737853cdfcb11337.jpg",
-    "static/media/Advice-By-Senior.jpg": "/Assgn/static/media/Advice-By-Senior.0ba34d1ae0a64a1d13b5.jpg",
     "static/media/WhatsApp Image 2023-04-10 at 21.34.12.jpg": "/Assgn/static/media/WhatsApp Image 2023-04-10 at 21.34.12.0490126ecc7699acb062.jpg",
     "static/media/bg-image.jpg": "/Assgn/static/media/bg-image.a7259e72fdae522c9a1b.jpg",
     "static/media/Select-Branch-img6.png": "/Assgn/static/media/Select-Branch-img6.8e53074255598fbe181e.png",
@@ -15,12 +14,12 @@
     "static/media/Select-Branch-img5.png": "/Assgn/static/media/Select-Branch-img5.28339fb3891890a1d2fe.png",
     "static/media/image-blog.jpg": "/Assgn/static/media/image-blog.7a19ba3ba058757a3882.jpg",
     "index.html": "/Assgn/index.html",
-    "main.c5bdcd44.css.map": "/Assgn/static/css/main.c5bdcd44.css.map",
-    "main.e5271aae.js.map": "/Assgn/static/js/main.e5271aae.js.map",
+    "main.693d67a6.css.map": "/Assgn/static/css/main.693d67a6.css.map",
+    "main.bd7d34a0.js.map": "/Assgn/static/js/main.bd7d34a0.js.map",
     "787.7baea511.chunk.js.map": "/Assgn/static/js/787.7baea511.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5bdcd44.css",
-    "static/js/main.e5271aae.js"
+    "static/css/main.693d67a6.css",
+    "static/js/main.bd7d34a0.js"
   ]
 }
