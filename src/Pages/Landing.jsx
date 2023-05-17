@@ -35,7 +35,7 @@ function Landing() {
           <Expertise />
           <Testimonial />
           <Blogs />
-          {/* <Footer /> */}
+          <Footer />
         </>
       )}
     </>

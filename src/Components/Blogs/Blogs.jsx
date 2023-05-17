@@ -1,6 +1,5 @@
 import React from "react";
 import classes from "./Blogs.module.css";
-import image from "./Advice-By-Senior.jpg";
 import image1 from "./image-blog.jpg";
 function Blogs() {
   return (
