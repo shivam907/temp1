@@ -18,8 +18,7 @@ function Subject() {
         <Loader />
       ) : (
         <>
-          <Hero />
-          <TopBar />
+          {/* <TopBar /> */}
           <SubjectBox />
         </>
       )}
