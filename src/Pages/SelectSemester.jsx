@@ -19,7 +19,7 @@ function SelectSemester() {
         <Loader />
       ) : (
         <>
-          <Hero />
+          <Hero head="ME" />
           <div className={classes["headingDiv"]}>
             <h1 className={classes["heading"]}>Select your Semester</h1>
           </div>
