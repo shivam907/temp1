@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./testimonial.module.css";
 import image from "./WhatsApp Image 2023-04-10 at 21.34.12.jpg";
+import Review from "./Review";
 function Testimonial() {
   return (
     <div class={classes["testimonial-container"]}>
@@ -12,247 +13,153 @@ function Testimonial() {
         </h2>
       </div>
       <div class={classes["testimonial-box"]}>
-        <div class={classes["testi-box"]}>
-          <p class={classes["testi-para"]}>
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit
-            quam ut quidem quae consectetur quos omnis, est ab dignissimos totam
-            eveniet tempore voluptatem."
-          </p>
-          <div class={classes["person-info-box"]}>
-            <div class={classes["person-info"]}>
-              <img class={classes["img-testi"]} src={image} alt="" />
-              <div class={classes["person-detail"]}>
-                <p class={classes["testi-name"]}>Shreya Sharma</p>
-                <p class={classes["faded-info"]}>App store review</p>
-              </div>
-            </div>
-            <div class={classes["icon-box"]}>
-              {/* <ion-icon class="icon-star" name="star"></ion-icon>
-              <ion-icon class="icon-star" name="star"></ion-icon>
-              <ion-icon class="icon-star" name="star"></ion-icon>
-              <ion-icon class="icon-star" name="star"></ion-icon>
-              <ion-icon class="icon-star" name="star"></ion-icon> */}
-            </div>
-          </div>
-        </div>
-
-        <div class={classes["testi-box"]}>
-          <p class={classes["testi-para"]}>
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit
-            quam ut quidem quae consectetur quos omnis, est ab dignissimos totam
-            eveniet tempore voluptatem."
-          </p>
-          <div class={classes["person-info-box"]}>
-            <div class={classes["person-info"]}>
-              <img class={classes["img-testi"]} src={image} alt="" />
-              <div class={classes["person-detail"]}>
-                <p class={classes["testi-name"]}>Shreya Sharma</p>
-                <p class={classes["faded-info"]}>App store review</p>
-              </div>
-            </div>
-            <div class={classes["icon-box"]}>
-              {/* <ion-icon class="icon-star" name="star"></ion-icon>
-              <ion-icon class="icon-star" name="star"></ion-icon>
-              <ion-icon class="icon-star" name="star"></ion-icon>
-              <ion-icon class="icon-star" name="star"></ion-icon>
-              <ion-icon class="icon-star" name="star"></ion-icon> */}
-            </div>
-          </div>
-        </div>
-
-        <div class={classes["testi-box"]}>
-          <p class={classes["testi-para"]}>
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit
-            quam ut quidem quae consectetur quos omnis, est ab dignissimos totam
-            eveniet tempore voluptatem."
-          </p>
-          <div class={classes["person-info-box"]}>
-            <div class={classes["person-info"]}>
-              <img class={classes["img-testi"]} src={image} alt="" />
-              <div class={classes["person-detail"]}>
-                <p class={classes["testi-name"]}>Shreya Sharma</p>
-                <p class={classes["faded-info"]}>App store review</p>
-              </div>
-            </div>
-            <div class={classes["icon-box"]}>
-              {/* <ion-icon class="icon-star" name="star"></ion-icon>
-              <ion-icon class="icon-star" name="star"></ion-icon>
-              <ion-icon class="icon-star" name="star"></ion-icon>
-              <ion-icon class="icon-star" name="star"></ion-icon>
-              <ion-icon class="icon-star" name="star"></ion-icon> */}
-            </div>
-          </div>
-        </div>
-
-        <div class={classes["testi-box"]}>
-          <p class={classes["testi-para"]}>
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit
-            quam ut quidem quae consectetur quos omnis, est ab dignissimos totam
-            eveniet tempore voluptatem."
-          </p>
-          <div class={classes["person-info-box"]}>
-            <div class={classes["person-info"]}>
-              <img class={classes["img-testi"]} src={image} alt="" />
-              <div class={classes["person-detail"]}>
-                <p class={classes["testi-name"]}>Shreya Sharma</p>
-                <p class={classes["faded-info"]}>App store review</p>
-              </div>
-            </div>
-            <div class={classes["icon-box"]}>
-              {/* <ion-icon class="icon-star" name="star"></ion-icon>
-              <ion-icon class="icon-star" name="star"></ion-icon>
-              <ion-icon class="icon-star" name="star"></ion-icon>
-              <ion-icon class="icon-star" name="star"></ion-icon>
-              <ion-icon class="icon-star" name="star"></ion-icon> */}
-            </div>
-          </div>
-        </div>
-
-        <div class={classes["testi-box"]}>
-          <p class={classes["testi-para"]}>
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit
-            quam ut quidem quae consectetur quos omnis, est ab dignissimos totam
-            eveniet tempore voluptatem."
-          </p>
-          <div class={classes["person-info-box"]}>
-            <div class={classes["person-info"]}>
-              <img class={classes["img-testi"]} src={image} alt="" />
-              <div class={classes["person-detail"]}>
-                <p class={classes["testi-name"]}>Shreya Sharma</p>
-                <p class={classes["faded-info"]}>App store review</p>
-              </div>
-            </div>
-            <div class={classes["icon-box"]}>
-              {/* <ion-icon class="icon-star" name="star"></ion-icon>
-              <ion-icon class="icon-star" name="star"></ion-icon>
-              <ion-icon class="icon-star" name="star"></ion-icon>
-              <ion-icon class="icon-star" name="star"></ion-icon>
-              <ion-icon class="icon-star" name="star"></ion-icon> */}
-            </div>
-          </div>
-        </div>
+        <Review
+          review={
+            "hello its me ffjhdu ug ugy g yf y f yf yf yuyfyf tft d td td t fy f y ft f td t dt dt d td t dt fgfugf fs gsgsg srg rg drgr dr h r s gs g rsg dr hr hrh r r hr h rh drh rd hrdh"
+          }
+          img={image}
+          name={"shreya sharma"}
+          category={"Website review"}
+        />
+        <Review
+          review={
+            "hello its me ffjhdu ug ugy g yf y f yf yf yuyfyf tft d td td t fy f y ft f td t dt dt d td t dt fgfugf fs gsgsg srg rg drgr dr h r s gs g rsg dr hr hrh r r hr h rh drh rd hrdh"
+          }
+          img={image}
+          name={"shreya sharma"}
+          category={"Website review"}
+        />
+        <Review
+          review={
+            "hello its me ffjhdu ug ugy g yf y f yf yf yuyfyf tft d td td t fy f y ft f td t dt dt d td t dt fgfugf fs gsgsg srg rg drgr dr h r s gs g rsg dr hr hrh r r hr h rh drh rd hrdh"
+          }
+          img={image}
+          name={"shreya sharma"}
+          category={"Website review"}
+        />
+        <Review
+          review={
+            "hello its me ffjhdu ug ugy g yf y f yf yf yuyfyf tft d td td t fy f y ft f td t dt dt d td t dt fgfugf fs gsgsg srg rg drgr dr h r s gs g rsg dr hr hrh r r hr h rh drh rd hrdh"
+          }
+          img={image}
+          name={"shreya sharma"}
+          category={"Website review"}
+        />
+        <Review
+          review={
+            "hello its me ffjhdu ug ugy g yf y f yf yf yuyfyf tft d td td t fy f y ft f td t dt dt d td t dt fgfugf fs gsgsg srg rg drgr dr h r s gs g rsg dr hr hrh r r hr h rh drh rd hrdh"
+          }
+          img={image}
+          name={"shreya sharma"}
+          category={"Website review"}
+        />
+        <Review
+          review={
+            "hello its me ffjhdu ug ugy g yf y f yf yf yuyfyf tft d td td t fy f y ft f td t dt dt d td t dt fgfugf fs gsgsg srg rg drgr dr h r s gs g rsg dr hr hrh r r hr h rh drh rd hrdh"
+          }
+          img={image}
+          name={"shreya sharma"}
+          category={"Website review"}
+        />
+        <Review
+          review={
+            "hello its me ffjhdu ug ugy g yf y f yf yf yuyfyf tft d td td t fy f y ft f td t dt dt d td t dt fgfugf fs gsgsg srg rg drgr dr h r s gs g rsg dr hr hrh r r hr h rh drh rd hrdh"
+          }
+          img={image}
+          name={"shreya sharma"}
+          category={"Website review"}
+        />
+        <Review
+          review={
+            "hello its me ffjhdu ug ugy g yf y f yf yf yuyfyf tft d td td t fy f y ft f td t dt dt d td t dt fgfugf fs gsgsg srg rg drgr dr h r s gs g rsg dr hr hrh r r hr h rh drh rd hrdh"
+          }
+          img={image}
+          name={"shreya sharma"}
+          category={"Website review"}
+        />
+        <Review
+          review={
+            "hello its me ffjhdu ug ugy g yf y f yf yf yuyfyf tft d td td t fy f y ft f td t dt dt d td t dt fgfugf fs gsgsg srg rg drgr dr h r s gs g rsg dr hr hrh r r hr h rh drh rd hrdh"
+          }
+          img={image}
+          name={"shreya sharma"}
+          category={"Website review"}
+        />
       </div>
 
       <div class={`${classes["testimonial-box"]} ${classes["testi-box-2"]}`}>
-        <div class={classes["testi-box"]}>
-          <p class={classes["testi-para"]}>
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit
-            quam ut quidem quae consectetur quos omnis, est ab dignissimos totam
-            eveniet tempore voluptatem."
-          </p>
-          <div class={classes["person-info-box"]}>
-            <div class={classes["person-info"]}>
-              <img class={classes["img-testi"]} src={image} alt="" />
-              <div class={classes["person-detail"]}>
-                <p class={classes["testi-name"]}>Shreya Sharma</p>
-                <p class={classes["faded-info"]}>App store review</p>
-              </div>
-            </div>
-            <div class={classes["icon-box"]}>
-              {/* <ion-icon class="icon-star" name="star"></ion-icon>
-              <ion-icon class="icon-star" name="star"></ion-icon>
-              <ion-icon class="icon-star" name="star"></ion-icon>
-              <ion-icon class="icon-star" name="star"></ion-icon>
-              <ion-icon class="icon-star" name="star"></ion-icon> */}
-            </div>
-          </div>
-        </div>
-
-        <div class={classes["testi-box"]}>
-          <p class={classes["testi-para"]}>
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit
-            quam ut quidem quae consectetur quos omnis, est ab dignissimos totam
-            eveniet tempore voluptatem."
-          </p>
-          <div class={classes["person-info-box"]}>
-            <div class={classes["person-info"]}>
-              <img class={classes["img-testi"]} src={image} alt="" />
-              <div class={classes["person-detail"]}>
-                <p class={classes["testi-name"]}>Shreya Sharma</p>
-                <p class={classes["faded-info"]}>App store review</p>
-              </div>
-            </div>
-            <div class={classes["icon-box"]}>
-              {/* <ion-icon class="icon-star" name="star"></ion-icon>
-              <ion-icon class="icon-star" name="star"></ion-icon>
-              <ion-icon class="icon-star" name="star"></ion-icon>
-              <ion-icon class="icon-star" name="star"></ion-icon>
-              <ion-icon class="icon-star" name="star"></ion-icon> */}
-            </div>
-          </div>
-        </div>
-
-        <div class={classes["testi-box"]}>
-          <p class={classes["testi-para"]}>
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit
-            quam ut quidem quae consectetur quos omnis, est ab dignissimos totam
-            eveniet tempore voluptatem."
-          </p>
-          <div class={classes["person-info-box"]}>
-            <div class={classes["person-info"]}>
-              <img class={classes["img-testi"]} src={image} alt="" />
-              <div class={classes["person-detail"]}>
-                <p class={classes["testi-name"]}>Shreya Sharma</p>
-                <p class={classes["faded-info"]}>App store review</p>
-              </div>
-            </div>
-            <div class={classes["icon-box"]}>
-              {/* <ion-icon class="icon-star" name="star"></ion-icon>
-              <ion-icon class="icon-star" name="star"></ion-icon>
-              <ion-icon class="icon-star" name="star"></ion-icon>
-              <ion-icon class="icon-star" name="star"></ion-icon>
-              <ion-icon class="icon-star" name="star"></ion-icon> */}
-            </div>
-          </div>
-        </div>
-
-        <div class={classes["testi-box"]}>
-          <p class={classes["testi-para"]}>
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit
-            quam ut quidem quae consectetur quos omnis, est ab dignissimos totam
-            eveniet tempore voluptatem."
-          </p>
-          <div class={classes["person-info-box"]}>
-            <div class={classes["person-info"]}>
-              <img class={classes["img-testi"]} src={image} alt="" />
-              <div class={classes["person-detail"]}>
-                <p class={classes["testi-name"]}>Shreya Sharma</p>
-                <p class={classes["faded-info"]}>App store review</p>
-              </div>
-            </div>
-            <div class={classes["icon-box"]}>
-              {/* <ion-icon class="icon-star" name="star"></ion-icon>
-              <ion-icon class="icon-star" name="star"></ion-icon>
-              <ion-icon class="icon-star" name="star"></ion-icon>
-              <ion-icon class="icon-star" name="star"></ion-icon>
-              <ion-icon class="icon-star" name="star"></ion-icon> */}
-            </div>
-          </div>
-        </div>
-
-        <div class={classes["testi-box"]}>
-          <p class={classes["testi-para"]}>
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit
-            quam ut quidem quae consectetur quos omnis, est ab dignissimos totam
-            eveniet tempore voluptatem."
-          </p>
-          <div class={classes["person-info-box"]}>
-            <div class={classes["person-info"]}>
-              <img class={classes["img-testi"]} src={image} alt="" />
-              <div class={classes["person-detail"]}>
-                <p class={classes["testi-name"]}>Shreya Sharma</p>
-                <p class={classes["faded-info"]}>App store review</p>
-              </div>
-            </div>
-            <div class={classes["icon-box"]}>
-              {/* <ion-icon class="icon-star" name="star"></ion-icon>
-              <ion-icon class="icon-star" name="star"></ion-icon>
-              <ion-icon class="icon-star" name="star"></ion-icon>
-              <ion-icon class="icon-star" name="star"></ion-icon>
-              <ion-icon class="icon-star" name="star"></ion-icon> */}
-            </div>
-          </div>
-        </div>
+        <Review
+          review={
+            "hello its me ffjhdu ug ugy g yf y f yf yf yuyfyf tft d td td t fy f y ft f td t dt dt d td t dt fgfugf fs gsgsg srg rg drgr dr h r s gs g rsg dr hr hrh r r hr h rh drh rd hrdh"
+          }
+          img={image}
+          name={"shreya sharma"}
+          category={"Website review"}
+        />
+        <Review
+          review={
+            "hello its me ffjhdu ug ugy g yf y f yf yf yuyfyf tft d td td t fy f y ft f td t dt dt d td t dt fgfugf fs gsgsg srg rg drgr dr h r s gs g rsg dr hr hrh r r hr h rh drh rd hrdh"
+          }
+          img={image}
+          name={"shreya sharma"}
+          category={"Website review"}
+        />
+        <Review
+          review={
+            "hello its me ffjhdu ug ugy g yf y f yf yf yuyfyf tft d td td t fy f y ft f td t dt dt d td t dt fgfugf fs gsgsg srg rg drgr dr h r s gs g rsg dr hr hrh r r hr h rh drh rd hrdh"
+          }
+          img={image}
+          name={"shreya sharma"}
+          category={"Website review"}
+        />
+        <Review
+          review={
+            "hello its me ffjhdu ug ugy g yf y f yf yf yuyfyf tft d td td t fy f y ft f td t dt dt d td t dt fgfugf fs gsgsg srg rg drgr dr h r s gs g rsg dr hr hrh r r hr h rh drh rd hrdh"
+          }
+          img={image}
+          name={"shreya sharma"}
+          category={"Website review"}
+        />
+        <Review
+          review={
+            "hello its me ffjhdu ug ugy g yf y f yf yf yuyfyf tft d td td t fy f y ft f td t dt dt d td t dt fgfugf fs gsgsg srg rg drgr dr h r s gs g rsg dr hr hrh r r hr h rh drh rd hrdh"
+          }
+          img={image}
+          name={"shreya sharma"}
+          category={"Website review"}
+        />
+        <Review
+          review={
+            "hello its me ffjhdu ug ugy g yf y f yf yf yuyfyf tft d td td t fy f y ft f td t dt dt d td t dt fgfugf fs gsgsg srg rg drgr dr h r s gs g rsg dr hr hrh r r hr h rh drh rd hrdh"
+          }
+          img={image}
+          name={"shreya sharma"}
+          category={"Website review"}
+        />
+        <Review
+          review={
+            "hello its me ffjhdu ug ugy g yf y f yf yf yuyfyf tft d td td t fy f y ft f td t dt dt d td t dt fgfugf fs gsgsg srg rg drgr dr h r s gs g rsg dr hr hrh r r hr h rh drh rd hrdh"
+          }
+          img={image}
+          name={"shreya sharma"}
+          category={"Website review"}
+        />
+        <Review
+          review={
+            "hello its me ffjhdu ug ugy g yf y f yf yf yuyfyf tft d td td t fy f y ft f td t dt dt d td t dt fgfugf fs gsgsg srg rg drgr dr h r s gs g rsg dr hr hrh r r hr h rh drh rd hrdh"
+          }
+          img={image}
+          name={"shreya sharma"}
+          category={"Website review"}
+        />
+        <Review
+          review={
+            "hello its me ffjhdu ug ugy g yf y f yf yf yuyfyf tft d td td t fy f y ft f td t dt dt d td t dt fgfugf fs gsgsg srg rg drgr dr h r s gs g rsg dr hr hrh r r hr h rh drh rd hrdh"
+          }
+          img={image}
+          name={"shreya sharma"}
+          category={"Website review"}
+        />
       </div>
     </div>
   );
