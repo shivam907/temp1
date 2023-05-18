@@ -31,6 +31,7 @@ a {
 }
 .logo {
   font-size: 2.8rem;
+  z-index: 999 !important;
 }
 
 .nav-lists {
@@ -38,6 +39,17 @@ a {
   gap: 3rem;
   list-style: none;
   font-size: 1.8rem;
+}
+.nav-lists1 {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  list-style: none;
+  font-size: 1.8rem;
+}
+
+.nav-lists1 .link-list {
+  font-size: 3rem !important;
 }
 
 .link-list {
@@ -49,4 +61,45 @@ a {
 .link-list:hover,
 .link-list:active {
   color: #666;
+}
+.menu {
+  height: 100vh;
+  z-index: 99;
+  width: 100vw;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menuIcon {
+  display: none;
+}
+.closeIcon {
+  position: absolute;
+  top: 3rem;
+  right: 3rem;
+  /* width: 10rem;
+  height: 10rem; */
+  font-size: 4rem;
+  font-weight: 100;
+}
+@media screen and (max-width: 750px) {
+  .nav {
+    padding: 3rem;
+  }
+  .shrink {
+    padding: 2rem 3rem !important;
+  }
+  .nav-section {
+    width: 85vw;
+  }
+  .nav-lists {
+    display: none !important;
+  }
+  .menuIcon {
+    display: block;
+  }
 }
