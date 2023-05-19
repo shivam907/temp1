@@ -19,496 +19,63 @@ function Subject() {
         <Loader />
       ) : (
         <>
-          <Hero head="CSE" />
-          <TopBar subject={["DM", "OS", "DAA", "UHV2", "COA"]} />
+          <Hero head="BCA" />
+          <TopBar
+            subject={["C LANGUAGE", "ENGLISH", "HUMAN VALUES", "IT", "MATHS"]}
+          />
           <div className={classes.subjectBoxes}>
             <Box
-              subjectName="Discrete Mathematics"
+              subjectName="C Language"
               number={4}
-              names={[
-                "notes",
-                "books",
-                "previous year question papers",
-                "important topics",
-              ]}
+              names={["notes"]}
               data1={[
+                ["Handwritten Notes"],
                 [
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-2 Handwritten Notes",
-                  "CEC Module-3 Handwritten Notes",
-                  "CEC Module-4 Handwritten Notes",
-                  "CEC Module-5 Handwritten Notes",
-                  "CEC Module-6 Handwritten Notes",
-                  "CEC Module-7 Handwritten Notes",
-                  "CEC Module-8 Handwritten Notes",
-                ],
-                [
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                ],
-              ]}
-              data2={[
-                [
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                ],
-                [
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                ],
-              ]}
-              data3={[
-                [
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                ],
-                [
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                ],
-              ]}
-              data4={[
-                [
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                ],
-                [
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
+                  "https://drive.google.com/file/d/1jwvoSb08RDOv0K6gTEXp6bolj5VjSxMq/view",
                 ],
               ]}
             />
             <Box
-              subjectName="Discrete Mathematics"
+              subjectName="English"
               number={4}
-              names={[
-                "notes",
-                "books",
-                "previous year question papers",
-                "important topics",
-              ]}
+              names={["notes"]}
               data1={[
+                [" Handwritten Notes"],
                 [
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-2 Handwritten Notes",
-                  "CEC Module-3 Handwritten Notes",
-                  "CEC Module-4 Handwritten Notes",
-                  "CEC Module-5 Handwritten Notes",
-                  "CEC Module-6 Handwritten Notes",
-                  "CEC Module-7 Handwritten Notes",
-                  "CEC Module-8 Handwritten Notes",
-                ],
-                [
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                ],
-              ]}
-              data2={[
-                [
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                ],
-                [
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                ],
-              ]}
-              data3={[
-                [
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                ],
-                [
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                ],
-              ]}
-              data4={[
-                [
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                ],
-                [
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
+                  "https://drive.google.com/file/d/1fG5e13p8sWiU40zQ1ItJnPO_156gNcih/view",
                 ],
               ]}
             />
             <Box
-              subjectName="Discrete Mathematics"
+              subjectName="Human Values"
               number={4}
-              names={[
-                "notes",
-                "books",
-                "previous year question papers",
-                "important topics",
-              ]}
+              names={["notes"]}
               data1={[
+                ["Handwritten Notes"],
                 [
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-2 Handwritten Notes",
-                  "CEC Module-3 Handwritten Notes",
-                  "CEC Module-4 Handwritten Notes",
-                  "CEC Module-5 Handwritten Notes",
-                  "CEC Module-6 Handwritten Notes",
-                  "CEC Module-7 Handwritten Notes",
-                  "CEC Module-8 Handwritten Notes",
-                ],
-                [
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                ],
-              ]}
-              data2={[
-                [
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                ],
-                [
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                ],
-              ]}
-              data3={[
-                [
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                ],
-                [
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                ],
-              ]}
-              data4={[
-                [
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                ],
-                [
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
+                  "https://drive.google.com/file/d/1jwvoSb08RDOv0K6gTEXp6bolj5VjSxMq/view",
                 ],
               ]}
             />
             <Box
-              subjectName="Discrete Mathematics"
+              subjectName="IT"
               number={4}
-              names={[
-                "notes",
-                "books",
-                "previous year question papers",
-                "important topics",
-              ]}
+              names={["notes"]}
               data1={[
+                ["Handwritten Notes"],
                 [
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-2 Handwritten Notes",
-                  "CEC Module-3 Handwritten Notes",
-                  "CEC Module-4 Handwritten Notes",
-                  "CEC Module-5 Handwritten Notes",
-                  "CEC Module-6 Handwritten Notes",
-                  "CEC Module-7 Handwritten Notes",
-                  "CEC Module-8 Handwritten Notes",
-                ],
-                [
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                ],
-              ]}
-              data2={[
-                [
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                ],
-                [
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                ],
-              ]}
-              data3={[
-                [
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                ],
-                [
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                ],
-              ]}
-              data4={[
-                [
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                ],
-                [
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
+                  "https://drive.google.com/file/d/1zpXbej3NlrZBRBC3rWDfdnAY74XbBw6X/view",
                 ],
               ]}
             />
             <Box
-              subjectName="Discrete Mathematics"
+              subjectName="Maths"
               number={4}
-              names={[
-                "notes",
-                "books",
-                "previous year question papers",
-                "important topics",
-              ]}
+              names={["notes"]}
               data1={[
+                ["Handwritten Notes"],
                 [
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-2 Handwritten Notes",
-                  "CEC Module-3 Handwritten Notes",
-                  "CEC Module-4 Handwritten Notes",
-                  "CEC Module-5 Handwritten Notes",
-                  "CEC Module-6 Handwritten Notes",
-                  "CEC Module-7 Handwritten Notes",
-                  "CEC Module-8 Handwritten Notes",
-                ],
-                [
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                ],
-              ]}
-              data2={[
-                [
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                ],
-                [
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                ],
-              ]}
-              data3={[
-                [
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                ],
-                [
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                ],
-              ]}
-              data4={[
-                [
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                ],
-                [
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
+                  "https://drive.google.com/file/d/1TImJrA7wjPAcIcFakRBGouv_YxJZSiH_/view",
                 ],
               ]}
             />
