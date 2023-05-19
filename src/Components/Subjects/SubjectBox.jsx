@@ -37,8 +37,7 @@ function Box(props) {
         <p>{props.subjectName}</p>
         <a
           href="https://ptu.ac.in/wp-content/uploads/2021/12/BTech-CSE-2021.pdf"
-          target="__blank"
-        >
+          target="__blank">
           Syllabus
         </a>
       </div>
