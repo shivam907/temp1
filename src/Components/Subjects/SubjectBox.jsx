@@ -32,12 +32,13 @@ function Box(props) {
     );
   }
   return (
-    <div className={classes.subjectBox}>
+    <div className={classes.subjectBox} ref={props.reff}>
       <div className={classes.header}>
         <p>{props.subjectName}</p>
         <a
           href="https://ptu.ac.in/wp-content/uploads/2021/12/BTech-CSE-2021.pdf"
-          target="__blank">
+          target="__blank"
+        >
           Syllabus
         </a>
       </div>
