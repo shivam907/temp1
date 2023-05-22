@@ -19,17 +19,17 @@ function Subject() {
         <Loader />
       ) : (
         <>
-          <Hero head="CSE" />
+          <Hero head="IT" />
           <TopBar subject={["DM", "OS", "DAA", "UHV2", "COA"]} />
           <div className={classes.subjectBoxes}>
             <Box
-              subjectName="Discrete Mathematics"
+              subjectName="Physics"
               number={4}
               names={[
-                "notes",
+                "Teacher's notes",
+                "Handwritten notes",
                 "books",
                 "previous year question papers",
-                "important topics",
               ]}
               data1={[
                 [
