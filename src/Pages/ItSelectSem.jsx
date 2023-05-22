@@ -19,33 +19,33 @@ function SelectSemester() {
         <Loader />
       ) : (
         <>
-          <Hero head="CSE" />
+          <Hero head="IT" />
           <div className={classes["headingDiv"]}>
             <h1 className={classes["heading"]}>Select your Semester</h1>
           </div>
           <div class={classes["boxes-sh"]}>
-            <Link to={"/CSE1stSem"}>
+            <Link to={"/IT1stSem"}>
               <SelectBox num={1} end=" st" />
             </Link>
-            <Link to={"/CSE2ndSem"}>
+            <Link to={"/IT2ndSem"}>
               <SelectBox num={2} end=" nd" />
             </Link>
-            <Link to={"/CSE3rdSem"}>
+            <Link to={"/IT3rdSem"}>
               <SelectBox num={3} end=" rd" />
             </Link>
-            <Link to={"/CSE4thSem"}>
+            <Link to={"/IT4thSem"}>
               <SelectBox num={4} end=" th" />
             </Link>
-            <Link to={"/CSE5thSem"}>
+            <Link to={"/IT5thSem"}>
               <SelectBox num={5} end=" th" />
             </Link>
-            <Link to={"/CSE6thSem"}>
+            <Link to={"/IT6thSem"}>
               <SelectBox num={6} end=" th" />
             </Link>
-            <Link to={"/CSE7thSem"}>
+            <Link to={"/IT7thSem"}>
               <SelectBox num={7} end=" th" />
             </Link>
-            <Link to={"/CSE8thSem"}>
+            <Link to={"/IT8thSem"}>
               <SelectBox num={8} end=" th" />
             </Link>
           </div>
