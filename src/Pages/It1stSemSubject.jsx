@@ -58,7 +58,7 @@ function Subject() {
               data3={[
                 [
                   "MST-1 (2019)",
-                  "MST-1 (2019)",
+                  "MST-2 (2019)",
                   "Final Paper (2019)",
                   "Lords Sample Paper",
                 ],
@@ -71,394 +71,110 @@ function Subject() {
               ]}
             />
             <Box
-              subjectName="Discrete Mathematics"
+              subjectName="BEE"
               number={4}
-              names={[
-                "notes",
-                "books",
-                "previous year question papers",
-                "important topics",
-              ]}
+              names={["notes", "books", "previous year question papers"]}
               data1={[
                 [
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-2 Handwritten Notes",
-                  "CEC Module-3 Handwritten Notes",
-                  "CEC Module-4 Handwritten Notes",
-                  "CEC Module-5 Handwritten Notes",
-                  "CEC Module-6 Handwritten Notes",
-                  "CEC Module-7 Handwritten Notes",
-                  "CEC Module-8 Handwritten Notes",
+                  "Module-1 Handwritten Notes ",
+                  "Module-2 Handwritten Notes",
+                  "Module-3 Handwritten Notes-1",
+                  "Module-3 Handwritten Notes-2",
+                  "Module-4 Handwritten Notes",
+                  "Module-5 Handwritten Notes",
                 ],
                 [
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
+                  "https://drive.google.com/file/d/1irOqs-cgFNbe_wjufYhamg0ddVZdbVdl/view",
+                  "https://drive.google.com/file/d/1BiEfsoq3GaEYYTHxtB_Nw1eYZnO7Y8tE/view",
+                  "https://drive.google.com/file/d/1ix1H15mFj6FnpFlNMZSYOdOQQTO-XcJG/view",
+                  "https://drive.google.com/file/d/1qMUDvZFaXAMqcvNExrYLR6uneoFamZw5/view",
+                  "https://drive.google.com/file/d/1ym4MsEjHyrilZBzsUotu3dpGvqBHzOG7/view",
+                  "https://drive.google.com/file/d/14t_kiprg3qhSg4MplZt8tYLda8_-Tou4/view",
                 ],
               ]}
               data2={[
                 [
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
+                  "Module-1 Book",
+                  "Module-2 Book",
+                  "Module-3 Book",
+                  "Module-4 Book-1",
+                  "Module-4 Book-2",
+                  "Module-5 Book",
                 ],
                 [
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
+                  "https://drive.google.com/file/d/1X1ZYjCLZuKZy9uUuBpDRCkCQa0TO_TWE/view",
+                  "https://drive.google.com/file/d/1lU7yLUw29wmejLJYUxuL8i1MjiTcEMKL/view",
+                  "https://drive.google.com/file/d/1XQbmO2cokFvI9Cog780VdFy-kI9E3yW7/view",
+                  "https://drive.google.com/file/d/1EbcnnM2rDemipQ-rmO5rqxiR0Zv9WZ2Q/view",
+                  "https://drive.google.com/file/d/1dlTm-7ReCDtBka6o8jk2ygTyorRlpOwO/view",
+                  "https://drive.google.com/file/d/1nm845HuG2GgRtBkftodr7paNJwIbFsmg/view",
                 ],
               ]}
               data3={[
+                ["MST-1 (2019)", "MST-2 (2019)", "Final Paper (2019)"],
                 [
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                ],
-                [
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                ],
-              ]}
-              data4={[
-                [
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                ],
-                [
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
+                  "https://drive.google.com/file/d/17xPqbgZBvllenPuzc9NXgcqGIvLNs5Rm/view",
+                  "https://drive.google.com/file/d/1skDOp0JVnAxD3_woxbKwh7hYcGZMEUpc/view",
+                  "https://drive.google.com/file/d/1iGwGUPm1IOho68j0A23zCT6Wwc01mv33/view",
                 ],
               ]}
             />
             <Box
-              subjectName="Discrete Mathematics"
+              subjectName="M1"
               number={4}
-              names={[
-                "notes",
-                "books",
-                "previous year question papers",
-                "important topics",
-              ]}
+              names={["notes", "books", "previous year question papers"]}
               data1={[
                 [
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-2 Handwritten Notes",
-                  "CEC Module-3 Handwritten Notes",
-                  "CEC Module-4 Handwritten Notes",
-                  "CEC Module-5 Handwritten Notes",
-                  "CEC Module-6 Handwritten Notes",
-                  "CEC Module-7 Handwritten Notes",
-                  "CEC Module-8 Handwritten Notes",
+                  "Beta and Gamma-1",
+                  "Beta and Gamma-2",
+                  "Matrices-1",
+                  "Matrices-2",
+                  "Linear Algebra",
+                  "Volume and Surfaces",
+                  "Improper Integral",
+                  "Vector space",
+                  "Linear Dependence or Independence ",
                 ],
                 [
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
+                  "https://drive.google.com/file/d/1-vDeIDgMbbh6eoaJx13jqRF-Z8GcSzHf/view",
+                  "https://drive.google.com/file/d/1sPLszbiGZYlgGgWGMv84O6b3uw0GV0RI/view",
+                  "https://drive.google.com/file/d/1kW6S40T6-qD9O6u2rxmFFbP5lI8NmnI7/view",
+                  "https://drive.google.com/file/d/1FPOJ9V-03vUmH2Czh-95Ad5q8B9yvvRd/view",
+                  "https://drive.google.com/file/d/1ZjknHIFMTrVcu7LsW4lPZkZcBAgidB1_/view",
+                  "https://drive.google.com/file/d/1a6_6idLYmKe6T2q4p_DrxSJc98D2RkOu/view",
+                  "https://drive.google.com/file/d/11IzupfIVZHKoHKDuoFZd2rOaWpvN_oZw/view",
+                  "https://drive.google.com/file/d/1LOdShubr9u-XjvPcxAtGxyvqcT_PpNbL/view",
+                  "https://drive.google.com/file/d/1jhCH0MN4uENs0q-CPBfXKICKRL3DBkDh/view",
                 ],
               ]}
               data2={[
                 [
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
+                  "General Theorems",
+                  "Definite and Indefinite",
+                  "Beta and Gamma",
+                  "Intermediate form",
+                  "Volume and Surfaces",
+                  "Vector Space",
+                  "Maxima and Minima",
+                  "Eigen value and vector",
+                  "Matrices",
                 ],
                 [
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                ],
-              ]}
-              data3={[
-                [
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                ],
-                [
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                ],
-              ]}
-              data4={[
-                [
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                ],
-                [
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                ],
-              ]}
-            />
-            <Box
-              subjectName="Discrete Mathematics"
-              number={4}
-              names={[
-                "notes",
-                "books",
-                "previous year question papers",
-                "important topics",
-              ]}
-              data1={[
-                [
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-2 Handwritten Notes",
-                  "CEC Module-3 Handwritten Notes",
-                  "CEC Module-4 Handwritten Notes",
-                  "CEC Module-5 Handwritten Notes",
-                  "CEC Module-6 Handwritten Notes",
-                  "CEC Module-7 Handwritten Notes",
-                  "CEC Module-8 Handwritten Notes",
-                ],
-                [
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                ],
-              ]}
-              data2={[
-                [
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                ],
-                [
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
+                  "https://drive.google.com/file/d/1QVbXeb3B-vxv_lZantjvToBgYZ85YySA/view",
+                  "https://drive.google.com/file/d/1coDIkwOpG876xVkJd0_TkwGy8UJZhzMD/view",
+                  "https://drive.google.com/file/d/1NO_5esnI6v0OJXrJcJ2dz3IB-8hUl8sT/view",
+                  "https://drive.google.com/file/d/1HhaGC3O7PEkCVnRourm0fz0oXR7oG801/view",
+                  "https://drive.google.com/file/d/1aS89VbSljLTvTAXBrzXg0ZFZMxAlOWA-/view",
+                  "https://drive.google.com/file/d/1teYTl_pLZDBMhzc8KJ08x1MegOF5Tvq4/view",
+                  "https://drive.google.com/file/d/1maSe7YgxMcjXIwLYHW5TAL6H6wheL9JV/view",
+                  "https://drive.google.com/file/d/1BKXHio5Iu337-s8blfuom-jpWknFRLNT/view",
+                  "https://drive.google.com/file/d/1DNW2bIvx1tfphrjAyLcaQHHXUjqWksqR/view",
                 ],
               ]}
               data3={[
+                [" Lords Sample Paper"],
                 [
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                ],
-                [
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                ],
-              ]}
-              data4={[
-                [
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                ],
-                [
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                ],
-              ]}
-            />
-            <Box
-              subjectName="Discrete Mathematics"
-              number={4}
-              names={[
-                "notes",
-                "books",
-                "previous year question papers",
-                "important topics",
-              ]}
-              data1={[
-                [
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-2 Handwritten Notes",
-                  "CEC Module-3 Handwritten Notes",
-                  "CEC Module-4 Handwritten Notes",
-                  "CEC Module-5 Handwritten Notes",
-                  "CEC Module-6 Handwritten Notes",
-                  "CEC Module-7 Handwritten Notes",
-                  "CEC Module-8 Handwritten Notes",
-                ],
-                [
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                ],
-              ]}
-              data2={[
-                [
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                  "COE Module-1 Handwritten Notes",
-                ],
-                [
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                ],
-              ]}
-              data3={[
-                [
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                  " Module-1 Handwritten Notes",
-                ],
-                [
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                ],
-              ]}
-              data4={[
-                [
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                ],
-                [
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
+                  "https://drive.google.com/file/d/1jsx2raKIbRGlC8H8wxeKSh03ng2pjfHw/view",
                 ],
               ]}
             />
