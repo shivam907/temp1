@@ -45,25 +45,20 @@ function Subject() {
         <>
           <Hero head="CSE" />
           <TopBar
-            subject={["DM", "OS", "DAA"]}
+            subject={["PHYSICS", "BEE", "M1"]}
             clicks={[clickk1, clickk2, clickk3]}
           />
           <div className={classes.subjectBoxes}>
             <Box
               reff={el1}
-              subjectName="Discrete Mathematics"
-              number={4}
-              names={[
-                "notes",
-                "books",
-                "previous year question papers",
-                "important topics",
-              ]}
+              subjectName="Physics"
+              number={3}
+              names={["Notes", "Books", "previous year question papers"]}
               data1={[
                 [
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-2 Handwritten Notes",
-                  "CEC Module-3 Handwritten Notes",
+                  "Unit-1 Teachers Notes",
+                  "Unit-1 Handwritten Notes",
+                  "Unit-2 Teachers Notes",
                   "CEC Module-4 Handwritten Notes",
                   "CEC Module-5 Handwritten Notes",
                   "CEC Module-6 Handwritten Notes",
@@ -71,8 +66,8 @@ function Subject() {
                   "CEC Module-8 Handwritten Notes",
                 ],
                 [
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
+                  "https://drive.google.com/file/d/1q2NAJpFQJyw_BtpnUiYp2mS1fixjadTZ/view",
+                  "https://drive.google.com/file/d/1SpgrcmCfhfayvbAHu32y6Kf2eTYwoVse/view",
                   "https://shivamkaushal.in",
                   "https://shivamkaushal.in",
                   "https://shivamkaushal.in",
@@ -113,28 +108,6 @@ function Subject() {
                   " Module-1 Handwritten Notes",
                   " Module-1 Handwritten Notes",
                   " Module-1 Handwritten Notes",
-                ],
-                [
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                  "https://shivamkaushal.in",
-                ],
-              ]}
-              data4={[
-                [
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
-                  "CEC Module-1 Handwritten Notes",
                 ],
                 [
                   "https://shivamkaushal.in",
