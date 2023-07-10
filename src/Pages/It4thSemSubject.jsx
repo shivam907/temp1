@@ -47,7 +47,7 @@ function Subject() {
         <Loader />
       ) : (
         <>
-          <Hero head="CSE" />
+          <Hero head="IT" />
           <TopBar
             subject={["DAA", "EVS", "M4", "UHV", "COA", "OS"]}
             click={[clickk1, clickk2, clickk3, clickk4, clickk5, clickk6]}
