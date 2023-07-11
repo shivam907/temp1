@@ -24,28 +24,28 @@ function SelectSemester() {
             <h1 className={classes["heading"]}>Select your Semester</h1>
           </div>
           <div class={classes["boxes-sh"]}>
-            <Link to={"/4thSem"}>
+            <Link to={"/ME1stSem"}>
               <SelectBox num={1} end=" st" />
             </Link>
-            <Link to={"/4thSem"}>
+            <Link to={"/ME2ndSem"}>
               <SelectBox num={2} end=" nd" />
             </Link>
-            <Link to={"/4thSem"}>
+            <Link to={"/ME3rdSem"}>
               <SelectBox num={3} end=" rd" />
             </Link>
-            <Link to={"/4thSem"}>
+            <Link to={"/ME4thSem"}>
               <SelectBox num={4} end=" th" />
             </Link>
-            <Link to={"/4thSem"}>
+            <Link to={"/ME5thSem"}>
               <SelectBox num={5} end=" th" />
             </Link>
-            <Link to={"/4thSem"}>
+            <Link to={"/ME6thSem"}>
               <SelectBox num={6} end=" th" />
             </Link>
-            <Link to={"/4thSem"}>
+            <Link to={"/ME7thSem"}>
               <SelectBox num={7} end=" th" />
             </Link>
-            <Link to={"/4thSem"}>
+            <Link to={"/ME8thSem"}>
               <SelectBox num={8} end=" th" />
             </Link>
           </div>

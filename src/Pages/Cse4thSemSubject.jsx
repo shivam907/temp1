@@ -50,7 +50,7 @@ function Subject() {
           <Hero head="CSE" />
           <TopBar
             subject={["DAA", "EVS", "M4", "UHV", "COA", "OS"]}
-            click={[clickk1, clickk2, clickk3, clickk4, clickk5, clickk6]}
+            clicks={[clickk1, clickk2, clickk3, clickk4, clickk5, clickk6]}
           />
           <div className={classes.subjectBoxes}>
             <Box

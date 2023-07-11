@@ -14,7 +14,7 @@
 .bodyBox {
   border: 1px solid #00000040;
   max-height: 400px;
-  overflow: hidden;
+  overflow: scroll;
   /* box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1); */
   border-radius: 2px;
   /* border-radius: 2px; */
@@ -57,14 +57,14 @@
   align-items: center;
   gap: 30px;
 }
-.li:nth-child(even) {
+.lii:nth-child(even) {
   background-color: #cccccc30;
 }
-.li:hover {
+.lii:hover {
   background-color: #f7f7fe;
   cursor: pointer;
 }
-.li:hover .file {
+.lii:hover .file {
   color: #444;
 }
 .srno {

@@ -11,34 +11,34 @@ function Select() {
         </i>
       </h1>
       <div class={classes["branches"]}>
-        <Link to={"selectSemester"}>
+        <Link to={"selectCseSemester"}>
           <div class={`${classes["branch"]} ${classes["branch-1"]}`} href="#">
             CSE
           </div>
         </Link>
-        <Link to={"selectSemester"}>
+        <Link to={"selectEceSemester"}>
           <div class={`${classes["branch"]} ${classes["branch-2"]}`} href="#">
             ECE
           </div>
         </Link>
-        <Link to={"selectSemester"}>
+        <Link to={"selectBcaSemester"}>
           <div class={`${classes["branch"]} ${classes["branch-3"]}`} href="#">
             BCA
           </div>
         </Link>
-        <Link to={"selectSemester"}>
-          <div class={`${classes["branch"]} ${classes["branch-4"]}`} href="#">
-            BSc
-          </div>
-        </Link>
-        <Link to={"selectSemester"}>
+        <Link to={"selectMeSemester"}>
           <div class={`${classes["branch"]} ${classes["branch-5"]}`} href="#">
             ME
           </div>
         </Link>
-        <Link to={"selectSemester"}>
+        <Link to={"selectItSemester"}>
           <div class={`${classes["branch"]} ${classes["branch-6"]}`} href="#">
             IT
+          </div>
+        </Link>
+        <Link to={"selectAiMLDsSemester"}>
+          <div class={`${classes["branch"]} ${classes["branch-4"]}`} href="#">
+            AI ML DS
           </div>
         </Link>
       </div>

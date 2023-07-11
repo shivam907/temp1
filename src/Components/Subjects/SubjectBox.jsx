@@ -1,5 +1,6 @@
 import React from "react";
 import classes from "./SubjectBox.module.css";
+import { Link } from "react-router-dom";
 
 import FileDownloadOutlinedIcon from "@mui/icons-material/FileDownloadOutlined";
 function Box(props) {
@@ -9,16 +10,22 @@ function Box(props) {
     console.log(props.data1);
     for (let j = 0; j < props[`data${i + 1}`][0].length; j++) {
       data.push(
-        <li className={classes.li}>
-          <p className={classes.srno}>{j + 1}</p>
-          <div className={classes.file}>
-            <p className={classes.fileText}>{props[`data${i + 1}`][0][j]}</p>
+        <div className={classes.lii}>
+          <Link to={props[`data${i + 1}`][1][j]}>
+            <li className={classes.li}>
+              <p className={classes.srno}>{j + 1}</p>
+              <div className={classes.file}>
+                <p className={classes.fileText}>
+                  {props[`data${i + 1}`][0][j]}
+                </p>
 
-            <div className={classes.fileIcon}>
-              <FileDownloadOutlinedIcon />
-            </div>
-          </div>
-        </li>
+                <div className={classes.fileIcon}>
+                  <FileDownloadOutlinedIcon />
+                </div>
+              </div>
+            </li>
+          </Link>
+        </div>
       );
     }
     console.log(data);
