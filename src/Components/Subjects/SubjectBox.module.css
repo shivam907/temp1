@@ -81,3 +81,12 @@
   justify-content: space-between;
   align-items: center;
 }
+@media screen and (max-width: 750px) {
+  .subjectBoxes {
+    width: 90vw;
+  }
+  .body {
+    display: flex;
+    flex-direction: column;
+  }
+}
