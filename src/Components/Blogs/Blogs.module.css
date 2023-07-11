@@ -16,6 +16,7 @@
   font-size: 4rem;
   text-align: center;
   font-weight: 700;
+  margin-bottom: 3rem;
 }
 
 .boxes {
@@ -46,7 +47,7 @@
 }
 
 .box-neeche {
-  margin-top: 10rem;
+  margin-top: 2rem;
 }
 
 .box-2 {
@@ -93,4 +94,16 @@
   color: #00000080;
   text-decoration: underline !important;
   /* transition: all 0.5s; */
+}
+
+@media screen and (max-width: 750px) {
+  .story-section {
+    margin-top: 10rem;
+    margin-bottom: -5rem;
+    width: 90vw;
+  }
+  .boxes {
+    display: flex;
+    flex-direction: column;
+  }
 }

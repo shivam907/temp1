@@ -71,3 +71,14 @@ footer {
   font-size: 1.8rem;
   color: #fff;
 }
+@media screen and (max-width: 750px) {
+  .section-footer {
+    padding: 0;
+  }
+  footer {
+    margin-top: 7rem;
+  }
+  .foot-company {
+    display: none;
+  }
+}

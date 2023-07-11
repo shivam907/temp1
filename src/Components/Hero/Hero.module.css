@@ -96,4 +96,13 @@ html {
   .hero-content {
     width: 90vw;
   }
+  .hero-head {
+    font-size: 4rem;
+  }
+  .hero-para {
+    font-size: 2rem;
+  }
+  .input {
+    display: none;
+  }
 }

@@ -91,3 +91,23 @@
   width: 2rem;
   height: 2rem;
 }
+
+@media screen and (max-width: 750px) {
+  .ultimate-experience {
+    width: 90vw;
+    height: fit-content;
+  }
+  .box:last-child {
+    display: none;
+  }
+  .flex-1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .text-right {
+    display: none;
+  }
+  .box {
+    width: 70vw;
+  }
+}

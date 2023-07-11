@@ -109,3 +109,15 @@
   background-color: #333;
   color: white;
 }
+@media screen and (max-width: 750px) {
+  .expertise-section {
+    width: 90vw;
+  }
+  .expertise-heading {
+    font-size: 4rem;
+  }
+  .boxes {
+    display: flex;
+    flex-direction: column;
+  }
+}

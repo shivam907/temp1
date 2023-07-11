@@ -39,3 +39,23 @@
   font-size: 2rem;
   color: #333;
 }
+@media screen and (max-width: 750px) {
+  .number-section {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .Number-heading {
+    width: 100vw !important;
+    padding: 0 5vw;
+    text-align: center;
+    /* margin: 0 auto; */
+  }
+  .notes-books-pyq {
+    display: grid;
+    grid-template-columns: 45vw 45vw;
+    gap: 3rem;
+    padding: 0 5vw;
+  }
+}

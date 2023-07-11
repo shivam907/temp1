@@ -142,3 +142,18 @@ html {
     transform: translateX(36.6666%);
   }
 }
+
+@media screen and (max-width: 750px) {
+  .testimonial-container {
+    margin-top: 110rem;
+    width: 100vw;
+  }
+  .testimonial-div-head {
+    width: 90vw;
+    margin: 0 auto;
+  }
+  .testimonial-heading {
+    display: flex;
+    flex-direction: column;
+  }
+}

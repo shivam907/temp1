@@ -23,7 +23,7 @@ function Landing() {
 
   return (
     <>
-      {loading ? (
+      {false ? (
         <Loader />
       ) : (
         <>

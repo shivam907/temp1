@@ -70,3 +70,24 @@
   /* opacity: 50%; */
   background-size: cover;
 }
+@media screen and (max-width: 750px) {
+  .hjk {
+    font-size: 3.4rem;
+    text-align: center;
+    /* max-width: 95vw; */
+  }
+  .selectContainer {
+    width: 90vw;
+    /* background-color: #5236ff; */
+  }
+  .branches {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 3rem;
+  }
+  .branch {
+    width: 90vw;
+    margin: 0 auto;
+  }
+}
