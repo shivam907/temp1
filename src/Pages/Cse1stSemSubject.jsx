@@ -43,7 +43,7 @@ function Subject() {
         <Loader />
       ) : (
         <>
-          <Hero head="IT" />
+          <Hero head="CSE" />
           <TopBar
             subject={["PHYSICS", "BEE", "M1"]}
             clicks={[clickk1, clickk2, clickk3]}
@@ -150,31 +150,61 @@ function Subject() {
             />
             <Box
               reff={el3}
-              subjectName="M2"
-              number={1}
-              names={["Books"]}
+              subjectName="M1"
+              number={3}
+              names={["Notes", "Books", "Previous year question papers"]}
               data1={[
                 [
-                  "Chapter-1",
-                  "Chapter-2",
-                  "Chapter-3",
-                  "Chapter-4",
-                  "Chapter-5",
-                  "Chapter-6",
-                  "Chapter-7",
-                  "Chapter-8",
-                  "Chapter-9",
+                  "Beta and Gamma-1",
+                  "Beta and Gamma-2",
+                  "Matrices-1",
+                  "Matrices-2",
+                  "Linear Algebra",
+                  "Volume and Surfaces",
+                  "Improper Integral",
+                  "Vector space",
+                  "Linear Dependence or Independence ",
                 ],
                 [
-                  "https://drive.google.com/file/d/1nPRVcpcHte0ahIM6_SeMCyKVb6bIdyEb/view",
-                  "https://drive.google.com/file/d/13gSyoV9JeAOsR15l1BTha4-mn0SU7Eum/view",
-                  "https://drive.google.com/file/d/1BTk4jV3clYv2N96XDSBUv8zn3aiudqRZ/view",
-                  "https://drive.google.com/file/d/1Qv-58QTZyJZB8nPuritqipBxl0QAk9Nk/view",
-                  "https://drive.google.com/file/d/1Nc2F7NqlAw9LIowtUBI89qZsO3zdQpo0/view",
-                  "https://drive.google.com/file/d/14U3Jhj1cky0yAahpiYWcELbrzdPohG4Z/view",
-                  "https://drive.google.com/file/d/1XBCzQQyRe6A-5WRjtHvBt8ktNwKwsM9G/view",
-                  "https://drive.google.com/file/d/1LCWC2NdkETbOhEImRIUVRKnxEcQ0kr0v/view",
-                  "https://drive.google.com/file/d/1jZh_r4vWNvO12nOuQ5hsQJYXv5vFekpK/view",
+                  "https://drive.google.com/file/d/1-vDeIDgMbbh6eoaJx13jqRF-Z8GcSzHf/view",
+                  "https://drive.google.com/file/d/1sPLszbiGZYlgGgWGMv84O6b3uw0GV0RI/view",
+                  "https://drive.google.com/file/d/1kW6S40T6-qD9O6u2rxmFFbP5lI8NmnI7/view",
+                  "https://drive.google.com/file/d/1FPOJ9V-03vUmH2Czh-95Ad5q8B9yvvRd/view",
+                  "https://drive.google.com/file/d/1ZjknHIFMTrVcu7LsW4lPZkZcBAgidB1_/view",
+                  "https://drive.google.com/file/d/1a6_6idLYmKe6T2q4p_DrxSJc98D2RkOu/view",
+                  "https://drive.google.com/file/d/11IzupfIVZHKoHKDuoFZd2rOaWpvN_oZw/view",
+                  "https://drive.google.com/file/d/1LOdShubr9u-XjvPcxAtGxyvqcT_PpNbL/view",
+                  "https://drive.google.com/file/d/1jhCH0MN4uENs0q-CPBfXKICKRL3DBkDh/view",
+                ],
+              ]}
+              data2={[
+                [
+                  "General Theorems",
+                  "Definite and Indefinite",
+                  "Beta and Gamma",
+                  "Intermediate form",
+                  "Volume and Surfaces",
+                  "Vector Space",
+                  "Maxima and Minima",
+                  "Eigen value and vector",
+                  "Matrices",
+                ],
+                [
+                  "https://drive.google.com/file/d/1QVbXeb3B-vxv_lZantjvToBgYZ85YySA/view",
+                  "https://drive.google.com/file/d/1coDIkwOpG876xVkJd0_TkwGy8UJZhzMD/view",
+                  "https://drive.google.com/file/d/1NO_5esnI6v0OJXrJcJ2dz3IB-8hUl8sT/view",
+                  "https://drive.google.com/file/d/1HhaGC3O7PEkCVnRourm0fz0oXR7oG801/view",
+                  "https://drive.google.com/file/d/1aS89VbSljLTvTAXBrzXg0ZFZMxAlOWA-/view",
+                  "https://drive.google.com/file/d/1teYTl_pLZDBMhzc8KJ08x1MegOF5Tvq4/view",
+                  "https://drive.google.com/file/d/1maSe7YgxMcjXIwLYHW5TAL6H6wheL9JV/view",
+                  "https://drive.google.com/file/d/1BKXHio5Iu337-s8blfuom-jpWknFRLNT/view",
+                  "https://drive.google.com/file/d/1DNW2bIvx1tfphrjAyLcaQHHXUjqWksqR/view",
+                ],
+              ]}
+              data3={[
+                [" Lords Sample Paper"],
+                [
+                  "https://drive.google.com/file/d/1jsx2raKIbRGlC8H8wxeKSh03ng2pjfHw/view",
                 ],
               ]}
             />
