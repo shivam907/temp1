@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.43b31c9d.css",
+    "main.js": "/static/js/main.c9eb6913.js",
+    "static/js/787.7baea511.chunk.js": "/static/js/787.7baea511.chunk.js",
+    "static/media/Desktop - 5.jpg": "/static/media/Desktop - 5.0212737853cdfcb11337.jpg",
+    "static/media/WhatsApp Image 2023-04-10 at 21.34.12.jpg": "/static/media/WhatsApp Image 2023-04-10 at 21.34.12.0490126ecc7699acb062.jpg",
+    "static/media/bg-image.jpg": "/static/media/bg-image.a7259e72fdae522c9a1b.jpg",
+    "static/media/Select-Branch-img6.png": "/static/media/Select-Branch-img6.8e53074255598fbe181e.png",
+    "static/media/Select-Branch-img4.png": "/static/media/Select-Branch-img4.0001053e43795a3ad1a0.png",
+    "static/media/Select-Branch-img3.png": "/static/media/Select-Branch-img3.27005247564d9b8cfe99.png",
+    "static/media/Select-Branch-img1.png": "/static/media/Select-Branch-img1.2c2c2863fff6151a6e54.png",
+    "static/media/Select-Branch-img2.png": "/static/media/Select-Branch-img2.2547f25edba83a2f5c66.png",
+    "static/media/Select-Branch-img5.png": "/static/media/Select-Branch-img5.28339fb3891890a1d2fe.png",
+    "static/media/image-blog.jpg": "/static/media/image-blog.7a19ba3ba058757a3882.jpg",
+    "index.html": "/index.html",
+    "main.43b31c9d.css.map": "/static/css/main.43b31c9d.css.map",
+    "main.c9eb6913.js.map": "/static/js/main.c9eb6913.js.map",
+    "787.7baea511.chunk.js.map": "/static/js/787.7baea511.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43b31c9d.css",
+    "static/js/main.c9eb6913.js"
+  ]
+}
