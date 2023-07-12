@@ -96,6 +96,7 @@
     gap: 3rem;
   }
   .branch {
+    font-weight: 700;
     width: 90vw;
     margin: 0 auto;
   }

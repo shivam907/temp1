@@ -93,6 +93,12 @@ html {
 @media screen and (max-width: 750px) {
   .hero-section {
     width: 100vw;
+    height: 100vh;
+
+    background-image: url("mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
   .hero-content {
     width: 90vw;
