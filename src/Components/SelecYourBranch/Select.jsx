@@ -27,17 +27,17 @@ function Select() {
           </div>
         </Link>
         <Link to={"selectMeSemester"}>
-          <div class={`${classes["branch"]} ${classes["branch-5"]}`} href="#">
+          <div class={`${classes["branch"]} ${classes["branch-4"]}`} href="#">
             ME
           </div>
         </Link>
         <Link to={"selectItSemester"}>
-          <div class={`${classes["branch"]} ${classes["branch-6"]}`} href="#">
+          <div class={`${classes["branch"]} ${classes["branch-5"]}`} href="#">
             IT
           </div>
         </Link>
         <Link to={"selectAiMLDsSemester"}>
-          <div class={`${classes["branch"]} ${classes["branch-4"]}`} href="#">
+          <div class={`${classes["branch"]} ${classes["branch-6"]}`} href="#">
             AI ML DS
           </div>
         </Link>

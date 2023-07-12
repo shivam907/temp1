@@ -9,7 +9,8 @@
 }
 
 .color-blue {
-  color: #5236ff;
+  /* color: #5236ff; */
+  color: #1dccd8;
 }
 
 .branches {
@@ -38,35 +39,43 @@
 }
 
 .branch-1 {
-  background-image: url("Select-Branch-img1.png");
+  /* background-image: url("Select-Branch-img1.png"); */
+  background-image: url("im1.png");
+  /* background-color: #f37b6270; */
   background-size: cover;
 }
 
 .branch-2 {
-  background-image: url("Select-Branch-img2.png");
+  /* background-image: url("Select-Branch-img2.png"); */
+
+  background-image: url("im2.png");
   background-size: cover;
 }
 
 .branch-3 {
-  background-image: url("Select-Branch-img3.png");
+  /* background-image: url("Select-Branch-img3.png"); */
+  background-image: url("im3.png");
   /* opacity: 50%; */
   background-size: cover;
 }
 
 .branch-4 {
-  background-image: url("Select-Branch-img4.png");
+  /* background-image: url("Select-Branch-img4.png"); */
+  background-image: url("im4.png");
   /* opacity: 50%; */
   background-size: cover;
 }
 
 .branch-5 {
-  background-image: url("Select-Branch-img5.png");
+  /* background-image: url("Select-Branch-img5.png"); */
+  background-image: url("im5.png");
   /* opacity: 50%; */
   background-size: cover;
 }
 
 .branch-6 {
-  background-image: url("Select-Branch-img6.png");
+  /* background-image: url("Select-Branch-img6.png"); */
+  background-image: url("im6.png");
   /* opacity: 50%; */
   background-size: cover;
 }

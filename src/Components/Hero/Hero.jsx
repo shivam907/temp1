@@ -25,23 +25,6 @@ function hero() {
             MST solved PYQ, AMCAT, markings & syllabus and other study material
             for FREE!
           </p>
-
-          <div className={classes["input"]}>
-            {/* <MailOutline
-              className={classes["icon-hero"]}
-              height="2.3rem"
-              width="2.3rem"
-              color={"#777777"}
-            /> */}
-            <input
-              className={classes["hero-input"]}
-              type="email"
-              id="email"
-              name="email"
-              placeholder="Enter your email"
-            />
-            <button className={classes["btn-hero"]}>Get Started</button>
-          </div>
         </div>
       </div>
     </body>

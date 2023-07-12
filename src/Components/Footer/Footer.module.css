@@ -61,13 +61,14 @@ footer {
 
 .copyright {
   background-color: #333;
-  padding: 1rem 3rem 3rem 3rem !important;
+  padding: 3rem;
   /* width: 120rem; */
   margin: 0 auto;
 }
 
 .copyright p {
   text-align: center;
+
   font-size: 1.8rem;
   color: #fff;
 }

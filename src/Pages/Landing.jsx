@@ -5,7 +5,7 @@ import Hero from "../Components/Hero/Hero";
 import Nav from "../UI/Nav";
 import Numbers from "../Components/Numbers/Numbers";
 import Select from "../Components/SelecYourBranch/Select";
-import Ultimate from "../Components/Ultimate/Ultimate";
+// import Ultimate from "../Components/Ultimate/Ultimate";
 import Expertise from "../Components/Expertise/Expertise";
 import Testimonial from "../Components/Testimonials/Testimonial";
 import Blogs from "../Components/Blogs/Blogs";
@@ -23,7 +23,7 @@ function Landing() {
 
   return (
     <>
-      {false ? (
+      {loading ? (
         <Loader />
       ) : (
         <>
@@ -31,7 +31,7 @@ function Landing() {
           <Hero />
           <Numbers />
           <Select />
-          <Ultimate />
+          {/* <Ultimate /> */}
           <Expertise />
           <Testimonial />
           <Blogs />

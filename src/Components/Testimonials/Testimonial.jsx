@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./testimonial.module.css";
 import image from "./WhatsApp Image 2023-04-10 at 21.34.12.jpg";
+import img1 from "./img.png";
 import Review from "./Review";
 function Testimonial() {
   return (
@@ -17,7 +18,7 @@ function Testimonial() {
           review={
             "hello its me ffjhdu ug ugy g yf y f yf yf yuyfyf tft d td td t fy f y ft f td t dt dt d td t dt fgfugf fs gsgsg srg rg drgr dr h r s gs g rsg dr hr hrh r r hr h rh drh rd hrdh"
           }
-          img={image}
+          img={img1}
           name={"shreya sharma"}
           category={"Website review"}
         />
