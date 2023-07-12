@@ -8,9 +8,9 @@ function Subject() {
   const el1 = React.useRef();
   const el2 = React.useRef();
   const el3 = React.useRef();
-  const el4 = React.useRef();
-  const el5 = React.useRef();
-  const el6 = React.useRef();
+  // const el4 = React.useRef();
+  // const el5 = React.useRef();
+  // const el6 = React.useRef();
   const [loading, setLoading] = React.useState(false);
   React.useEffect(() => {
     setLoading(true);
@@ -28,15 +28,15 @@ function Subject() {
   function clickk3(e) {
     el3.current.scrollIntoView({ behavior: "smooth" });
   }
-  function clickk4(e) {
-    // let element = el1.current;
-    console.log(e);
-    e.target.scrollIntoView({ behavior: "smooth" });
-  }
-  function clickk5(e) {
-    // let element = el1.current;
-    el5.current.scrollIntoView({ behavior: "smooth" });
-  }
+  // function clickk4(e) {
+  //   // let element = el1.current;
+  //   console.log(e);
+  //   e.target.scrollIntoView({ behavior: "smooth" });
+  // }
+  // function clickk5(e) {
+  //   // let element = el1.current;
+  //   el5.current.scrollIntoView({ behavior: "smooth" });
+  // }
   return (
     <>
       {loading ? (

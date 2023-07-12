@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import classes from "../Components/SelectSemester/Select.module.css";
 import SelectBox from "../Components/SelectSemester/SelectBox";
 import Loader from "../UI/Loader";
