@@ -8,7 +8,7 @@ import SelectEceSemester from "./Pages/EceSelectSem.jsx";
 import SelectMeSemester from "./Pages/MeSelectSem";
 import SelectItSemester from "./Pages/ItSelectSem";
 import SelectBcaSemester from "./Pages/BcaSelectSem";
-import Me1stSemSubject from "./Pages/ME1stSemSubject";
+import Me1stSemSubject from "./Pages/Me1stSemSubject";
 import CSE1stSem from "./Pages/Cse1stSemSubject";
 import CSE2ndSem from "./Pages/Cse2ndSemSubject";
 import CSE3rdSem from "./Pages/Cse3rdSemSubject";
