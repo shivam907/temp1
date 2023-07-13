@@ -42,7 +42,8 @@
   z-index: 10000 !important; */
   border-radius: 50%;
   /* background-color: aquamarine; */
-  background-image: url("./trianglify-lowres\ \(2\).png");
+  /* background-image: url("./trianglify-lowres\ \(2\).png"); */
+  background-image: url('./new.png');
   padding: 30px;
   position: absolute;
   /* transform: translateY(-50%) !important; */
@@ -69,7 +70,9 @@
 
 .color-sh {
   /* background-color: aquamarine; */
-  background-image: url("./trianglify-lowres\ \(2\).png");
+  /* background-image: url("./trianglify-lowres\ \(2\).png"); */
+
+  background-image: url('./new.png');
   /* overflow: hidden; */
   display: flex;
   align-items: center;

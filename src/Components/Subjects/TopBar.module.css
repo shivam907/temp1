@@ -18,7 +18,8 @@
   justify-content: space-between;
   align-items: center;
 
-  background-color: #45BCFF40;
+  /* background-color: #45BCFF40; */
+  background-image: url('./new.png');
   /* padding-top: 3px; */
   box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
   border-radius: 0.5rem;
@@ -36,7 +37,7 @@
 }
 
 .subjects:hover {
-  background-color: #fff;
+  background-color: #ffffff60;
 }
 
 .active-subject {
