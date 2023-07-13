@@ -14,16 +14,28 @@
 .bodyBox {
   border: 1px solid #00000040;
   max-height: 400px;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
   /* box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1); */
   border-radius: 2px;
   /* border-radius: 2px; */
+}
+.bodyBox::-webkit-scrollbar {
+  /* border-radius: 50%; */
+  /* background: #fff; */
+  width: 5px;
+}
+
+.bodyBox::-webkit-scrollbar-thumb{
+  border-radius: 80px;
+  background: #f9b98f;
 }
 .header {
   padding: 25px 40px;
   display: flex;
   justify-content: space-between;
   border: 1px solid #00000040;
+  background-color: #f37b6220;
 }
 .bodyHead {
   padding: 17px 40px;
@@ -32,6 +44,7 @@
 }
 .header p {
   font-size: 25px;
+  
 }
 
 .header a {
