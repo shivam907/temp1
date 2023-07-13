@@ -76,7 +76,8 @@
 }
 
 .advice-image {
-  width: 100%;
+  max-width: 33rem;
+  max-height: 20rem;
   height: auto;
 }
 

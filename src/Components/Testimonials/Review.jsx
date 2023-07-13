@@ -4,7 +4,7 @@ import classes from "./testimonial.module.css";
 function Review(props) {
   return (
     <div class={classes["testi-box"]}>
-      <p class={classes["testi-para"]}>"{props.review}."</p>
+      <p class={classes["testi-para"]}>"{props.review.slice(0, 200)}......"</p>
       <div class={classes["person-info-box"]}>
         <div class={classes["person-info"]}>
           <img class={classes["img-testi"]} src={props.img} alt="" />

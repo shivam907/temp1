@@ -1,6 +1,9 @@
 import React from "react";
 import classes from "./Blogs.module.css";
 import image1 from "./image-blog.jpg";
+import img1 from "./img1.jpeg"
+import img2 from "./img2.jpg"
+import img3 from "./img3.jpg"
 import BlogBox from "./BlogBox";
 function Blogs() {
   return (
@@ -10,36 +13,36 @@ function Blogs() {
       </h1>
       <div class={classes["boxes"]}>
         <BlogBox
-          img={image1}
-          heading={"Crush your M-III backlog in website!"}
+          img={img1}
+          heading={"Five Essential Online Learning Strategies"}
           description={
-            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, ipsum dolor sit amet consectetur adipisicing elit. Tempora fugiat eligendi illum nisi, officiis in"
+            "By employing a few essential strategies, any student can learn not only to succeed, but to flourish in the online learning environment."
           }
-          date={"January 03,2023"}
+          date={"June 04,2022"}
           link={
-            "https://ijsuccesspoint.blogspot.com/2022/06/how-to-score-above-9-sgpa-in-4th-sem.html?m=1"
+            "https://ijsuccesspoint.blogspot.com/2022/06/five-essential-online-learning.html"
           }
         />
         <BlogBox
-          img={image1}
-          heading={"Crush your M-III backlog in website!"}
+          img={img2}
+          heading={"How to Give Yourself Grace to Start Again"}
           description={
-            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, ipsum dolor sit amet consectetur adipisicing elit. Tempora fugiat eligendi illum nisi, officiis in"
+            "Here are some tips which will apply in so many different situations in life, from fitness goals to business goals to raising children."
           }
-          date={"January 03,2023"}
+          date={"June 04,2022"}
           link={
-            "https://ijsuccesspoint.blogspot.com/2022/06/how-to-score-above-9-sgpa-in-4th-sem.html?m=1"
+            "https://ijsuccesspoint.blogspot.com/2022/06/how-to-give-yourself-grace-to-start.html"
           }
         />
         <BlogBox
-          img={image1}
-          heading={"Crush your M-III backlog in website!"}
+          img={img3}
+          heading={"Begineer Guide To Start Competitive Programming"}
           description={
-            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, ipsum dolor sit amet consectetur adipisicing elit. Tempora fugiat eligendi illum nisi, officiis in"
+            "Here are some of the things to keep in your mind before going for a competitive programming such as choose your language and so on..."
           }
-          date={"January 03,2023"}
+          date={"June 04,2022"}
           link={
-            "https://ijsuccesspoint.blogspot.com/2022/06/how-to-score-above-9-sgpa-in-4th-sem.html?m=1"
+            "https://ijsuccesspoint.blogspot.com/2022/06/beginner-guide-to-start-competitive.html"
           }
         />
       </div>
