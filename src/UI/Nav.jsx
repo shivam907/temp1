@@ -81,18 +81,15 @@ function Hero() {
                 Terms of Service
               </a>
             </li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
           </ul>
+          <div className={classes.menuIcon}>
+
           <MenuIcon
             className={classes.menuIcon}
             onClick={change}
             fontSize={"large"}
           />
+          </div>
         </nav>
       </div>
       {open && (
